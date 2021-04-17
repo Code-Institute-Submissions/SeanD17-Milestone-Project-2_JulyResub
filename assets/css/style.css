@@ -1,59 +1,56 @@
-
-footer {
-    background-color: peru;
-    color: #fafafa;
+/*Navbar of Website name*/
+.navbar-header {
+    position: absolute;
+    left: 30%;
+    display: block;
     text-align: center;
-    padding-top:20px;
-    padding-bottom:20px;
+    text-transform: uppercase;
 }
-.social-links li a i {
-    color: #fafafa;
-    background: #8f8f8f;
-    font-size: 25px;
+
+.navbar-header .navbar-brand {
+    color: firebrick;
+
 }
-.social-links li a i:hover {
-    color: darkorange;
-    background: #8f8f8f;
-}
-#personal,#about{
+
+#beach {
     background-attachment: fixed;
-    background-image: url('../images/');
+    background-image: url('../images/beach.jpg');
     background-position: bottom;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:20px;
-    margin:auto;  
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: auto;
 }
-h5{
-  text-align: center;  
+
+#navigation {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
-.icon{
+
+h5 {
+    text-align: center;
+}
+
+.icon {
     display: block;
     margin: auto;
     width: 100px;
 }
-.me{
-    display: block;
-    margin: auto;
-}
+
 .card-body .card-title,
-.card-body .card-text
-{
+.card-body .card-text {
     text-align: center;
-}
-.title{
-    text-align: center;
-    font-weight: bold; 
-    
 }
 
-.my-title .name,
-.my-title .job-title{
+.title {
     text-align: center;
     font-weight: bold;
-    color: #fafafa;
+
 }
-.personal-info{
+
+.personal-info {
     margin: 5px;
     text-align: center;
 
@@ -74,12 +71,17 @@ h5{
 .personal-info .value {
     width: 200px;
 }
-.reasons{
-        font-weight: bold;
-        text-align: center;
-}
-p{
-    color:black;
+
+.reasons {
+    font-weight: bold;
     text-align: center;
 }
 
+p {
+    color: black;
+    text-align: center;
+}
+.table{
+    align-items:center;
+    background: snow;
+}

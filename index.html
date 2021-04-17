@@ -3,78 +3,87 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
 
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <title></title>
+    <title>Bookingzilla Homepage</title>
 </head>
-
 <body>
-    <div class="container-fluid" id="personal">
-        <div class="row">
-            <div class="col-md-12 bg-color-personal-info section-column">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="title">Personal Information</h3>
-                    </div>
+   <header class="jumbotron" id="navigation">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                          <a class="navbar-brand" href="index.html">Bookingzilla Travel Site</a>
                 </div>
-                <div class="personal-info">
-                    <div class="key">Name:</div>
-                    <div class="value">Sean Dolan</div>
-                </div>
+
             </div>
-            <div class="personal-info">
-                <div class="key">Address:</div>
-                <div class="value">Kildysart,Ennis,Co.Clare,Ireland</div>
-            </div>
-        </div>
-        <div class="personal-info">
-            <div class="key">Phone: </div>
-            <div class="value">+353 087 9717431</div>
-        </div>
-        <div class="personal-info">
-            <div class="key">Email:</div>
-            <div class="value">seandolan53@yahoo.com</div>
-        </div>
-    </div>
-    <div class="container-fluid" id="about">
+        </nav>
+
+    </header>
+    
+    <div class="container-fluid" id="beach">
         <div class="col-md-12 bg-color-three-reasons section-column">
             <div class="row">
                 <div class="col">
-                    <h3 class="title">About Me</h3>
+                    <h3 class="title">Welcome to Bookingzilla</h3>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <h4 class="reasons">What do I do
-                        <i class="fa fa-question" aria-hidden="true"></i>
-                    </h4>
-                    <p>I'm a skilled Full Stack Developer with a wealth of technical and life experience that I
-                        bring to any task.</p>
-                </div>
-            </div>
+      <div class="card" style="width: 18rem;">
+  <div class="card-header">
+    Table in a card
+  </div>
+<!-- Below table code gotten from the Bootstrap website section on Table, https://getbootstrap.com/docs/5.0/content/tables/-->
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
             <div class="row">
                 <div class="col-12">
-                    <h4 class="reasons">Why hire me?
+                    <h4 class="reasons">Please click on the below image to search for a destination to book
                         <i class="fa fa-briefcase" aria-hidden="true"></i>
                     </h4>
-                    <p>I work on getting things done as quickly and effectively as possible.I have excellant
-                        communication skills and work well in a team.</p>
+                   <a href="destination.html" target="_blank">
+            <img class="icon" src="assets/images/stock-photo-happy-young-couple-walking-together.jpg" alt="Link to Booking Map page">
+        </a>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <div class="container-fluid" id="footer-details">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h5 class="uppercase general-sub">My Social Media Links</h5>
-  
-                </div>
-            </div>
-        </div>
-    </footer>
 </body>
 
 </html>

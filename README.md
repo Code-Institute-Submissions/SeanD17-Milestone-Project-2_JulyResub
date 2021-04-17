@@ -1,13 +1,22 @@
 # Milestone-Project-2
 <p align="center"><strong>Milestone Project 2</strong>
 
-<p align="center"><strong></strong> 
+<p align="center"><strong>Interactive Frontend Development</strong> 
 
 <p align="center"><strong>Code Institute</strong>
 
-<p align="center"><strong></strong>  
+<p align="center"><strong>Bookingzilla</strong> 
 
+A holiday booking site to display attractions on a map based on the country the user searches for.
 
+The project has a couple of pages,
+a homepage listing the most popular destinations and a link to the map,
+a page with Google Maps and a table below that gets the details from whichever marker the user clicks on the map 
+and a page where the user can fill out a contact form with booking details that are then sent to be by email.
+
+[Link to website]() here to see the website.
+
+![Website]()
 
 ## Table of Contents
 > - [UX](#ux)
@@ -149,7 +158,7 @@ All text content in this website was written by me.
 
 The photos used in this site were obtained from:
 
-
+<span>Couple on beach obtained from <a href="https://depositphotos.com/215787024/stock-photo-happy-young-couple-walking-together.html">here</a></span>
 
 ## Acknowledgments:
 
