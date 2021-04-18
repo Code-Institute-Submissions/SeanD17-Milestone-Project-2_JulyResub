@@ -154,11 +154,15 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
 
 All text content in this website was written by me.
 
+<span>Data used in table on the homepage was obtained from <a href="https://en.wikipedia.org/wiki/World_Tourism_rankings">here</a></span>
+
 ## Media:
 
 The photos used in this site were obtained from:
 
-<span>Couple on beach obtained from <a href="https://depositphotos.com/215787024/stock-photo-happy-young-couple-walking-together.html">here</a></span>
+<span>Couple on beach obtained from <a href="https://depositphotos.com/212620776/stock-photo-happy-young-couple-walking-together.html">here</a></span>
+
+<span>Beach background obtained from <a href="https://unsplash.com/@hermansyah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">here</a></span>
 
 ## Acknowledgments:
 
