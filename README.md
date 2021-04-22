@@ -14,7 +14,7 @@ a homepage listing the most popular destinations and a link to the map,
 a page with Google Maps and a table below that gets the details from whichever marker the user clicks on the map 
 and a page where the user can fill out a contact form with booking details that are then sent to be by email.
 
-[Link to website]() here to see the website.
+[Link to website](https://seand17.github.io/Milestone-Project-2/) here to see the website.
 
 ![Website]()
 
@@ -168,4 +168,4 @@ The photos used in this site were obtained from:
 
 I received inspiration for this project from my mentor Nishant Kumar.
 
-I also received inspiration from an Bootstrap mini project that was taught to use as part of our course.
+I also received inspiration from an Bootstrap mini project that was taught to us as part of our course.
