@@ -5,22 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <title>
-    </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
+
+    <title>Book a Destination</title>
 </head>
 
 <body>
-    <header>
+    <header class="jumbotron" id="navigation">
+        <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">Bookingzilla Travel Site</a>
+                </div>
+
+            </div>
+        </nav>
 
     </header>
 
-    <footer>
+    <div class="container-fluid" id="beach">
+        <div class="col-md-12 bg-color-three-reasons section-column">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Destination Booking</h3>
+                </div>
+            </div>
 
+            <div class="row">
+                <h4 class="title">Please enter in a destination in the below map to see potential attractions.</h4>
+                <div id ="map"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container-fluid" id="beach">
+        </div>
     </footer>
-    <script>
-    </script>
+       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+    <script src="assets/js/booking.js"></script>
 </body>
 
 </html>
