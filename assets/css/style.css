@@ -35,7 +35,6 @@
     background-attachment: fixed;
     background-image: url('../images/beach.jpg');
     background-position: bottom;
-    padding-bottom: 250px;
     margin: auto;
 }
 
@@ -43,6 +42,7 @@
     display: block;
     margin: auto;
     width: 300px;
+    padding: 20px;
 }
 
 .title {
@@ -58,7 +58,36 @@
 /*Google Maps*/
 #map {
     min-height: 400px;
+     min-width: 400px;
 }
+.hotel-search{
+    text-align: center;
+
+}
+#country, #autocomplete{
+    width: 100%;
+     text-align: center;
+}
+.placeIcon {
+  width: 20px;
+  height: 34px;
+  margin: 4px;
+}
+
+.hotelIcon {
+  width: 24px;
+  height: 24px;
+}
+#resultsTable {
+  border-collapse: collapse;
+  width: 240px;
+}
+
+#rating {
+  font-size: 13px;
+  font-family: Arial Unicode MS;
+}
+
 .iw_table_row {
   height: 18px;
 }
@@ -71,3 +100,9 @@
 .iw_table_icon {
   text-align: right;
 }
+
+
+#findhotels {
+  font-size: 14px;
+}
+

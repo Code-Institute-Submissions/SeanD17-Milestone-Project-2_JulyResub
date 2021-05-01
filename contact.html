@@ -5,22 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <title>
-	</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+                emailjs.init("user_Z3NhniKVmxQR4ouXUECcZ");
+                })();
+               var templateParams = {
+    name: 'James',
+    notes: 'Check this out!'
+};
+ 
+emailjs.send('service_m0pgoxr', 'template_8t12twf', templateParams)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+    </script>
+    <title>Bookingzilla Homepage</title>
 </head>
 
 <body>
-    <header>
+    <header class="jumbotron" id="navigation">
+        <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">Bookingzilla Travel Site</a>
+                </div>
+
+            </div>
+        </nav>
 
     </header>
 
-    <footer>
+    <div class="container-fluid" id="beach">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="title">Want to know more details?</h3>
+                <h5 class="title">Email me using the below form!</h5>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <br />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                            required />
+                        <br />
+                        <input type="date" name="depdate" id="depdate" class="form-control" placeholder="Departure Date"
+                            required />
+                        <br />
+                        <input type="date" name="arrdate" id="arrdate" class="form-control" placeholder="Email"
+                            required />
+                        <br />
+                        <textarea rows="5" name="message" id="message" class="form-control"
+                            placeholder="Write Message Here" required></textarea>
+                        <div class="form-row text-center">
+                            <br />
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Message by Email</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
     </footer>
-    <script>
-	</script>
 </body>
 
 </html>
