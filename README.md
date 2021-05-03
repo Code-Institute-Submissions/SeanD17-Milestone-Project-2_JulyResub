@@ -159,6 +159,7 @@ All text content in this website was written by me.
 ## Media:
 
 The photos used in this site were obtained from:
+<span>Couple boarding plane obtained from <a href="https://www.istockphoto.com/photo/couple-leaving-for-a-vacation-gm951105550-259628198">here</a></span>
 
 <span>Couple on beach obtained from <a href="https://depositphotos.com/212620776/stock-photo-happy-young-couple-walking-together.html">here</a></span>
 
@@ -169,3 +170,8 @@ The photos used in this site were obtained from:
 I received inspiration for this project from my mentor Nishant Kumar.
 
 I also received inspiration from an Bootstrap mini project that was taught to us as part of our course.
+
+https://fontawesome.com/icons/map-marked-alt?style=solid
+https://fontawesome.com/icons/globe-americas?style=solid
+https://fontawesome.com/icons/suitcase?style=solid
+https://fontawesome.com/icons/plane?style=solid

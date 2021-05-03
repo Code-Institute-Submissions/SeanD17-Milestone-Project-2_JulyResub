@@ -36,6 +36,7 @@
     background-image: url('../images/beach.jpg');
     background-position: bottom;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .icon {
@@ -57,8 +58,8 @@
 
 /*Google Maps*/
 #map {
-    min-height: 400px;
-     min-width: 400px;
+    min-height: 250px;
+     min-width: 250px;
 }
 .hotel-search{
     text-align: center;
@@ -80,7 +81,9 @@
 }
 #resultsTable {
   border-collapse: collapse;
-  width: 240px;
+   width: 100%;
+    text-align: center;
+
 }
 
 #rating {

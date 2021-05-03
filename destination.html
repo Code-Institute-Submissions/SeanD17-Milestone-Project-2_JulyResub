@@ -39,13 +39,18 @@
             </div>
 
             <div class="hotel-search">
-                <div id="findhotels">Find hotels in:</div>
+                 <h4 class="title">Please type in a city into the below field and select a country from the dropdown to display hotels,attractions and landmarks on Google Maps.
+                       <i class="fas fa-globe-americas" aria-hidden="true"></i>
+                 </h4>
 
-                <div>
+                <div id="locationField">
                     <input id="autocomplete" placeholder="Enter a city" type="text" />
                 </div>
 
-                <div>
+
+                <div id="controls">
+
+
                     <select id="country">
                         <option value="it">Italy</option>
                         <option value="mx">Mexico</option>
@@ -55,11 +60,13 @@
                     </select>
                 </div>
             </div>
-
+            <br />
 
             <div id="map"></div>
         </div>
-        <div>
+
+        <br />
+        <div id="listing">
             <table id="resultsTable">
                 <tbody id="results"></tbody>
             </table>
@@ -91,12 +98,16 @@
                 </table>
             </div>
         </div>
+                    <h4 class="title">Please click on the below image to send an email for further information
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    </h4>
+                    <a href="contact.html" target="_blank">
+                        <img class="icon" src="assets/images/istockphoto-951105550-612x612.jpg"
+                            alt="Link to Booking Map page">
+                    </a>
 
     </div>
-    <footer class="footer">
-        <div class="container-fluid" id="beach">
-        </div>
-    </footer>
+    
     <script src="assets/js/booking.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKl1sycBA1QwhbdIPgz_GHA8d-omz7-XY&callback=initMap&libraries=places&v=weekly"

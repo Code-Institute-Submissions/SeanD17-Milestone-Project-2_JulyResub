@@ -17,19 +17,19 @@
     </script>
     <script type="text/javascript">
         (function () {
-                emailjs.init("user_Z3NhniKVmxQR4ouXUECcZ");
-                })();
-               var templateParams = {
-    name: 'James',
-    notes: 'Check this out!'
-};
- 
-emailjs.send('service_m0pgoxr', 'template_8t12twf', templateParams)
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });
+            emailjs.init("user_Z3NhniKVmxQR4ouXUECcZ");
+        })();
+        var templateParams = {
+            name: 'James',
+            notes: 'Check this out!'
+        };
+
+        emailjs.send('service_m0pgoxr', 'template_8t12twf', templateParams)
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+            }, function (error) {
+                console.log('FAILED...', error);
+            });
     </script>
     <title>Bookingzilla Homepage</title>
 </head>
@@ -79,8 +79,7 @@ emailjs.send('service_m0pgoxr', 'template_8t12twf', templateParams)
             </div>
         </div>
     </div>
-    <footer class="footer">
-    </footer>
+
 </body>
 
 </html>
