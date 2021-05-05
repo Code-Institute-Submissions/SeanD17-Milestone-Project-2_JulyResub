@@ -11,8 +11,8 @@ A holiday booking site to display attractions on a map based on the country the 
 
 The project has a couple of pages,
 a homepage listing the most popular destinations and a link to the map,
-a page with Google Maps and a table below that gets the details from whichever marker the user clicks on the map 
-and a page where the user can fill out a contact form with booking details that are then sent to be by email.
+a page with Google Maps and a table below that gets the details of all the hotel markers that a user has searched for in a city 
+and a page where the user can fill out a contact form with booking details that are then sent to me by email.
 
 [Link to website](https://seand17.github.io/Milestone-Project-2/) here to see the website.
 
@@ -159,6 +159,15 @@ All text content in this website was written by me.
 ## Media:
 
 The photos used in this site were obtained from:
+
+<span>Globe icon obtained from <a href="https://fontawesome.com/icons/globe-americas?style=solid">here</a></span>
+
+<span>Map icon obtained from <a href="https://fontawesome.com/icons/map-marked-alt?style=solid">here</a></span>
+
+<span>Suitcase icon obtained from <a href="https://fontawesome.com/icons/suitcase?style=solid">here</a></span>
+
+<span>Plane icon obtained from <a href="https://fontawesome.com/icons/plane?style=solid">here</a></span>
+
 <span>Couple boarding plane obtained from <a href="https://www.istockphoto.com/photo/couple-leaving-for-a-vacation-gm951105550-259628198">here</a></span>
 
 <span>Couple on beach obtained from <a href="https://depositphotos.com/212620776/stock-photo-happy-young-couple-walking-together.html">here</a></span>
@@ -170,8 +179,3 @@ The photos used in this site were obtained from:
 I received inspiration for this project from my mentor Nishant Kumar.
 
 I also received inspiration from an Bootstrap mini project that was taught to us as part of our course.
-
-https://fontawesome.com/icons/map-marked-alt?style=solid
-https://fontawesome.com/icons/globe-americas?style=solid
-https://fontawesome.com/icons/suitcase?style=solid
-https://fontawesome.com/icons/plane?style=solid

@@ -35,15 +35,24 @@
     background-attachment: fixed;
     background-image: url('../images/beach.jpg');
     background-position: bottom;
-    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
+    margin: auto;
 }
 
-.icon {
+.contact {
     display: block;
     margin: auto;
-    width: 300px;
-    padding: 20px;
+    width: 260px;
+
+}
+
+.destination {
+    display: block;
+    margin: auto;
+    width: 225px;
+
 }
 
 .title {
@@ -59,53 +68,58 @@
 /*Google Maps*/
 #map {
     min-height: 250px;
-     min-width: 250px;
+    
+
 }
-.hotel-search{
+
+.hotel-search {
     text-align: center;
 
 }
-#country, #autocomplete{
+
+#country,
+#autocomplete {
     width: 100%;
-     text-align: center;
+    text-align: center;
 }
+
 .placeIcon {
-  width: 20px;
-  height: 34px;
-  margin: 4px;
+    width: 20px;
+    height: 34px;
+    margin: 4px;
 }
 
 .hotelIcon {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
+
 #resultsTable {
-  border-collapse: collapse;
-   width: 100%;
+    border-collapse: collapse;
+    width: 100%;
     text-align: center;
 
 }
 
 #rating {
-  font-size: 13px;
-  font-family: Arial Unicode MS;
+    font-size: 13px;
+    font-family: Arial Unicode MS;
 }
 
 .iw_table_row {
-  height: 18px;
+    height: 18px;
 }
 
 .iw_attribute_name {
-  font-weight: bold;
-  text-align: right;
+    font-weight: bold;
+    text-align: right;
 }
 
 .iw_table_icon {
-  text-align: right;
+    text-align: right;
 }
 
 
 #findhotels {
-  font-size: 14px;
+    font-size: 14px;
 }
-

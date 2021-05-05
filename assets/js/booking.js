@@ -265,3 +265,12 @@ function buildIWContent(place) {
         document.getElementById("iw-website-row").style.display = "none";
     }
 }
+function clearSearch(){
+    document.getElementById("autocomplete").value = "";
+}
+function clearAll(){
+    clearMarkers();
+    clearResults();
+    clearSearch();
+}
+

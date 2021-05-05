@@ -37,19 +37,18 @@
                     <h3 class="title">Destination Booking</h3>
                 </div>
             </div>
-
             <div class="hotel-search">
-                 <h4 class="title">Please type in a city into the below field and select a country from the dropdown to display hotels,attractions and landmarks on Google Maps.
-                       <i class="fas fa-globe-americas" aria-hidden="true"></i>
-                 </h4>
+                <h4 class="title">Please type in a city into the below field and select a country from the dropdown to
+                    display hotels,attractions and landmarks on Google Maps.
+                    <i class="fas fa-globe-americas" aria-hidden="true"></i>
+                </h4>
 
                 <div id="locationField">
                     <input id="autocomplete" placeholder="Enter a city" type="text" />
                 </div>
-
+                <br />
 
                 <div id="controls">
-
 
                     <select id="country">
                         <option value="it">Italy</option>
@@ -59,19 +58,18 @@
                         <option value="tr">Turkey</option>
                     </select>
                 </div>
+                <br />
+                <button type="submit" class="btn btn-danger float-right" onClick="clearAll()">Clear</button>
             </div>
-            <br />
-
-            <div id="map"></div>
         </div>
-
+        <br />
+        <div id="map"></div>
         <br />
         <div id="listing">
             <table id="resultsTable">
                 <tbody id="results"></tbody>
             </table>
         </div>
-
         <div style="display: none">
             <div id="info-content">
                 <table>
@@ -98,22 +96,19 @@
                 </table>
             </div>
         </div>
-                    <h4 class="title">Please click on the below image to send an email for further information
-                        <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    </h4>
-                    <a href="contact.html" target="_blank">
-                        <img class="icon" src="assets/images/istockphoto-951105550-612x612.jpg"
-                            alt="Link to Booking Map page">
-                    </a>
-
+          <h4 class="title">Please click on the below image to send an email for further information
+        <i class="fas fa-plane" aria-hidden="true"></i>
+    </h4>
+    <a href="contact.html" target="_blank">
+        <img class="contact" src="assets/images/istockphoto-951105550-612x612.jpg" alt="Link to Booking Map page">
+    </a> 
     </div>
-    
+ 
+    </div>
     <script src="assets/js/booking.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKl1sycBA1QwhbdIPgz_GHA8d-omz7-XY&callback=initMap&libraries=places&v=weekly"
         type="text/javascript"></script>
-
 </body>
-
 
 </html>
