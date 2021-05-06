@@ -37,7 +37,7 @@
     background-position: bottom;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 200px;
     margin: auto;
 }
 
@@ -68,8 +68,6 @@
 /*Google Maps*/
 #map {
     min-height: 250px;
-    
-
 }
 
 .hotel-search {
