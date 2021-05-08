@@ -160,6 +160,8 @@ All text content in this website was written by me.
 
 The photos used in this site were obtained from:
 
+<span>Bed icon obtained from <a href="https://fontawesome.com/icons/hotel">here</a></span>
+
 <span>Globe icon obtained from <a href="https://fontawesome.com/icons/globe-americas?style=solid">here</a></span>
 
 <span>Map icon obtained from <a href="https://fontawesome.com/icons/map-marked-alt?style=solid">here</a></span>
