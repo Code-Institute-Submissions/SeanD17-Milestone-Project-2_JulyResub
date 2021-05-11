@@ -113,8 +113,22 @@ and a page where the user can fill out a contact form with booking details that 
 
 
 ## Validation:
+HTML - [W3C](https://validator.w3.org/) - Markup Validation
+
+[Index Validation Result]()
+
+[Destination Validation Result]()
+
+[Contact Validation Result]()
 
 
+CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+
+[Validation Result]()
+
+JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation
+[Booking Validation Result]()
+[Send Email Validation Result]()
 
 ## Project Bugs and Solutions:
 
@@ -174,8 +188,9 @@ The photos used in this site were obtained from:
 
 <span>Couple on beach obtained from <a href="https://depositphotos.com/212620776/stock-photo-happy-young-couple-walking-together.html">here</a></span>
 
-<span>Beach background obtained from <a href="https://unsplash.com/@hermansyah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">here</a></span>
-
+<span>Beach background obtained from <a href="https://unsplash.com/@apviktor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Viktor Jakovlev</a> on <a href="https://unsplash.com/@apviktor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">here</a></span>
+<span>Dome in Spain obtained from <a href="https://en.wikipedia.org/wiki/Valencia#/media/File:Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies,_Val%C3%A8ncia,_Valencia,_Spain_-_panoramio_(3).jpg">here</a></span>
+  
 ## Acknowledgments:
 
 I received inspiration for this project from my mentor Nishant Kumar.

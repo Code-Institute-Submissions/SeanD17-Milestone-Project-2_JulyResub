@@ -1,29 +1,9 @@
 /*Header of Website name*/
 
-
-.navbar-fixed-top .container {
-    text-align: center;
-    margin-right: 5%;
-    margin-top: 5%;
-}
-
 .navbar-header {
-
-    position: absolute;
-    display: block;
     text-transform: uppercase;
-    background: transparent;
 }
 
-.navbar-brand {
-    padding-right: 20px;
-    line-height: 44px;
-}
-
-.navbar-brand:hover {
-    color: #564F6F;
-    text-decoration: none;
-}
 
 #navigation {
     margin: auto;
@@ -34,11 +14,11 @@
 #beach {
     background-attachment: fixed;
     background-image: url('../images/beach.jpg');
-    background-position: bottom;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     margin: auto;
+    background-position: bottom;
 }
 
 .contact {
@@ -55,10 +35,24 @@
 
 }
 
-.title {
-    text-align: center;
-    font-weight: bold;
+.card .title,
+.card .body {
+    color:coral;
+    text-align: center; 
+       font-weight: bold; 
 }
+
+h3{
+   color:snow;
+      font-weight: bold;
+    text-align: center;  
+}
+h4{
+      color:snow;
+    text-align: center; 
+       font-weight: bold; 
+}
+
 
 .table {
     align-items: center;
@@ -120,4 +114,28 @@ div#map {
 
 #findhotels {
     font-size: 14px;
+}
+
+footer {
+    background-color: dodgerblue;
+    color: snow;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.social-links li a i {
+    color: #fafafa;
+    background: #8f8f8f;
+    font-size: 25px;
+}
+
+.social-links li a i:hover {
+    color: darkorange;
+    background: #8f8f8f;
+}
+
+.icon {
+    display: block;
+    margin: auto;
+    width: 100px;
 }

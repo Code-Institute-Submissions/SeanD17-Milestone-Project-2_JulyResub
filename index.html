@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
         type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Bookingzilla Homepage</title>
 </head>
 
@@ -33,54 +33,55 @@
         <div class="col-md-12 bg-color-three-reasons section-column">
             <div class="row">
                 <div class="col">
-                    <h3 class="title">Welcome to Bookingzilla</h3>
+                    <h3>Welcome to Bookingzilla</h3>
+                    <h3>This site was designed to allow you to search for a city for hotels on Google
+                        Maps.</h3>
                 </div>
             </div>
-            <div class="card">
-                <h4 class="title">Please see the below table for countries with the most tourists per year.
+          
+            <div class="col">
+                <h3>Please see the below cards for countries with the most tourists per year,and the top 3
+                    cities with the most tourists.
                     <i class="fas fa-suitcase" aria-hidden="true"></i>
-                </h4>
+                </h3>
+            </div>
+           
+            <div class="card">
+                <img class="icon" src="assets/images/spain.jpg" alt="Spain">
+                <h3 class="title">Spain</h3>
+                 <h3 class="body">83.5m</h3>
+                 <h3 class="body">Tenerife,Alicante,Barcelona</h3>
+            </div>
 
-                <!-- Below table code gotten from the Bootstrap website section on Table, https://getbootstrap.com/docs/5.0/content/tables/  -->
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-
-
-                            <th scope="col">Country</th>
-                            <th scope="col">Tourists</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Spain</td>
-                            <td>83.5m</td>
-                        </tr>
-                        <tr>
-                            <td>Italy</td>
-                            <td>64.5m</td>
-                        </tr>
-                        <tr>
-                            <td>Turkey</td>
-                            <td>51.2m</td>
-                        </tr>
-                        <tr>
-                            <td>Mexico</td>
-                            <td>45.0m</td>
-                        </tr>
-                        <tr>
-                            <td>Thailand</td>
-                            <td>39.8m</td>
-                        </tr>
-
-                    </tbody>
-                </table>
+            <div class="card">
+                <img class="icon" src="assets/images/" alt="Italy">
+                  <h3 class="title">Italy</h3>
+                 <h3 class="body">64.5m</h3>
+                  <h3 class="body"></h3>
+            </div>
+            <div class="card">
+                <img class="icon" src="assets/images/" alt="Turkey">
+                 <h3 class="title">Turkey</h3>
+                <h3 class="body">51.2m</h3>
+                 <h3 class="body"></h3>
+            </div>
+            <div class="card">
+                <img class="icon" src="assets/images/" alt="Mexico">
+                <h3 class="title">Mexico</h3>
+                <h3 class="body">45.0m</h3>
+                <h3 class="body"></h3>
+            </div>
+            <div class="card">
+                <img class="icon" src="assets/images/" alt="Thailand">
+                 <h3 class="title">Thailand</h3>
+                  <h3 class="body">39.8m</3h>
+                  <h3 class="body"></h3>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h4 class="title">Please click on the below image to search for a destination to book.
+                    <h3>Please click on the below image to search for a destination to book.
                         <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
-                    </h4>
+                    </h3>
                     <a href="destination.html" target="_blank">
                         <img class="destination" src="assets/images/stock-photo-happy-young-couple-walking-together.jpg"
                             alt="Link to Booking Map page">
@@ -88,8 +89,35 @@
                 </div>
             </div>
         </div>
-
+</div>
     </div>
+    <footer class="footer">
+        <div class="container-fluid" id="footer-details">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="uppercase general-sub">My Social Media Links</h4>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+
+                            <a target="_blank" href="https://www.linkedin.com/in/sean-dolan-7b380a109/">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-inline social-links">
+
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://github.com/SeanD17">
+                                <i class="fab fa-github-square" aria-hidden="true"></i>
+                                <span class="sr-only">Github</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
