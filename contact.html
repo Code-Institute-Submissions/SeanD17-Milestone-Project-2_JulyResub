@@ -20,6 +20,7 @@
             emailjs.init("user_Z3NhniKVmxQR4ouXUECcZ");
         })();
     </script>
+    <script src="assets/js/booking.js"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Bookingzilla Contact Form</title>
 </head>
@@ -40,8 +41,8 @@
     <div class="container-fluid" id="beach">
         <div class="row bg-color-contact">
             <div class="col">
-                <h3 class="title">Want to know more details?</h3>
-                <h5 class="title">Email me using the below form!</h5>
+                <h3>Want to know more details?</h3>
+                <p>Email me using the below form!</p>
                 <div class="center-form">
                     <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
@@ -56,7 +57,7 @@
                         <input type="date" name="arrdate" id="arrdate" class="form-control" placeholder="Arrival Date"
                             required />
                         <br />
-                        <input type="number" name="people" id="people" class="form-control" min=0 max =10
+                        <input type="number" name="people" id="people" class="form-control" min=0 max=10
                             placeholder="Number of People" required />
                         <div class="form-row text-center">
                             <br />
@@ -69,8 +70,35 @@
 
             </div>
         </div>
+        <br />
     </div>
-    <script src="assets/js/sendEmail.js"></script>
+    <footer class="footer">
+        <div class="container-fluid" id="footer-details">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>My Social Media Links</h3>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+
+                            <a target="_blank" href="https://www.linkedin.com/in/sean-dolan-7b380a109/">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-inline social-links">
+
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://github.com/SeanD17">
+                                <i class="fab fa-github-square" aria-hidden="true"></i>
+                                <span class="sr-only">Github</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -12,8 +12,13 @@
         type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
-          <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
+
+    <script src="assets/js/booking.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKl1sycBA1QwhbdIPgz_GHA8d-omz7-XY&callback=initMap&libraries=places&v=weekly"
+        type="text/javascript"></script>
     <title>Book a Destination</title>
 </head>
 
@@ -34,14 +39,14 @@
         <div class="col-md-12 bg-color-three-reasons section-column">
             <div class="row">
                 <div class="col">
-                    <h3 class="title">Destination Booking</h3>
+                    <h3>Destination Booking</h3>
                 </div>
             </div>
             <div class="hotel-search">
-                <h4 class="title">Please type in a city into the below field and select a country from the dropdown to
+                <p>Please type in a city into the below field and select a country from the dropdown to
                     display hotels,attractions and landmarks on Google Maps.
                     <i class="fas fa-globe-americas" aria-hidden="true"></i>
-                </h4>
+                </p>
 
                 <div id="locationField">
                     <input id="autocomplete" placeholder="Enter a city" type="text" />
@@ -59,16 +64,16 @@
                     </select>
                 </div>
                 <br />
-             <!---->  
+       
                 <button type="submit" class="btn btn-danger float-right" onClick="clearAll();">Clear</button>
             </div>
-        
-        <div id="map"></div>
+
+            <div id="map"></div>
         </div>
         <br />
-        <h4 class="title">Please see the below table for the list of hotel results that Google Maps has shown.
+        <p>Please see the below table for the list of hotel results that Google Maps has shown.
             <i class="fas fa-hotel" aria-hidden="true"></i>
-        </h4>
+        </p>
         <div id="listing">
             <table id="resultsTable">
                 <tbody id="results"></tbody>
@@ -100,20 +105,47 @@
                 </table>
             </div>
         </div>
-        <br />
-        <h4 class="title">Please click on the below image to send an email for further information.
+         <div class="row">
+                <div class="col-12">
+        <p>Please click on the below image to send an email for further information.
             <i class="fas fa-plane" aria-hidden="true"></i>
-        </h4>
+        </p>
         <a href="contact.html" target="_blank">
             <img class="contact" src="assets/images/couple_flight.jpg" alt="Link to Booking Map page">
         </a>
     </div>
-
+   </div>
+   <br/>
+            </div>
     </div>
-    <script src="assets/js/booking.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKl1sycBA1QwhbdIPgz_GHA8d-omz7-XY&callback=initMap&libraries=places&v=weekly"
-        type="text/javascript"></script>
+    <footer class="footer">
+        <div class="container-fluid" id="footer-details">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>My Social Media Links</h3>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+
+                            <a target="_blank" href="https://www.linkedin.com/in/sean-dolan-7b380a109/">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-inline social-links">
+
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://github.com/SeanD17">
+                                <i class="fab fa-github-square" aria-hidden="true"></i>
+                                <span class="sr-only">Github</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
