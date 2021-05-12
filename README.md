@@ -190,15 +190,15 @@ The photos used in this site were obtained from:
 
 <span>Beach background obtained from <a href="https://unsplash.com/@apviktor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Viktor Jakovlev</a> on <a href="https://unsplash.com/@apviktor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">here</a></span>
 
-<span>Dome in Spain obtained from <a href="https://en.wikipedia.org/wiki/Valencia#/media/File:Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies,_Val%C3%A8ncia,_Valencia,_Spain_-_panoramio_(3).jpg">here</a></span>
+<span>Hagia Sophia in Turkey obtained from <a href="https://www.voanews.com/europe/greek-businesses-move-boycott-trade-turkey-over-hagia-sophia">here</a></span>
 
-<span>Dome in Spain obtained from <a href="https://en.wikipedia.org/wiki/Valencia#/media/File:Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies,_Val%C3%A8ncia,_Valencia,_Spain_-_panoramio_(3).jpg">here</a></span>
+<span>Colosseum in Italy obtained from <a href="https://www.smithsonianmag.com/smart-news/italy-plans-install-floors-colosseum-1-180976635/">here</a></span>
 
-<span>Dome in Spain obtained from <a href="https://en.wikipedia.org/wiki/Valencia#/media/File:Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies,_Val%C3%A8ncia,_Valencia,_Spain_-_panoramio_(3).jpg">here</a></span>
+<span>Malaga in Spain obtained from <a href="https://www.hellehollis.com/blog/en/scenic-drives-around-malaga.htm">here</a></span>
 
-<span>Dome in Spain obtained from <a href="https://en.wikipedia.org/wiki/Valencia#/media/File:Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies,_Val%C3%A8ncia,_Valencia,_Spain_-_panoramio_(3).jpg">here</a></span>
+<span>San Miguel de Allende in Mexico obtained from <a href="https://www.travelagentcentral.com/destinations/san-miguel-de-allende-making-its-mark-culinary-world">here</a></span>
 
-<span>Dome in Spain obtained from <a href="https://en.wikipedia.org/wiki/Valencia#/media/File:Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies,_Val%C3%A8ncia,_Valencia,_Spain_-_panoramio_(3).jpg">here</a></span>
+<span>Grand Palace in Thailand obtained from <a href="http://www.asiaessencetours.com/destinations/thailand/bangkok/the-grand-palace.htm">here</a></span>
   
 ## Acknowledgments:
 
