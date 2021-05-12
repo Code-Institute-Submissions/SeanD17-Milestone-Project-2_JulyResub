@@ -274,3 +274,35 @@ function clearAll() {
         streetViewControl: false,
     });
 }
+function sendMail(contactForm) {
+    emailjs.send("service_m0pgoxr", "template_8t12twf", {
+            "from_name": contactForm.name.value,
+            "from_email": contactForm.email.value,
+            "from_departure": contactForm.depdate.value,
+            "from_arrival": contactForm.arrdate.value,
+            "from_people": contactForm.people.value,
+        })
+        .then(
+            function (response) {
+                console.log("SUCCESS", response);
+            },
+            function (error) {
+                console.log("FAILED", error)
+            }
+        );
+    return false;
+}
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slideshow");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+} 

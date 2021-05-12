@@ -14,7 +14,6 @@
 #beach {
     background-attachment: fixed;
     background-image: url('../images/beach.jpg');
-    padding-bottom: 5%;
     margin: auto;
     background-position: bottom;
 }
@@ -22,7 +21,7 @@
 .contact {
     display: block;
     margin: auto;
-    width: 260px;
+    width: 225px;
 
 }
 
@@ -33,8 +32,8 @@
 
 }
 
-.card p, 
-.card h3
+.slideshow p, 
+.slideshow h3
  {
     color: coral;
     text-align: center;
@@ -137,5 +136,5 @@ footer {
 .icon {
     display: block;
     margin: auto;
-    width: 100px;
+    width: 220px;
 }
