@@ -15,10 +15,7 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
 
-    <script src="assets/js/booking.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKl1sycBA1QwhbdIPgz_GHA8d-omz7-XY&callback=initMap&libraries=places&v=weekly"
-        type="text/javascript"></script>
+
     <title>Book a Destination</title>
 </head>
 
@@ -40,6 +37,8 @@
             <div class="row">
                 <div class="col">
                     <h3>Destination Booking</h3>
+                    <p>This page is where you can search for cities in countries like Spain,Italy,Thailand etc for
+                        landmarks and hotels on Google Maps.</p>
                 </div>
             </div>
             <div class="hotel-search">
@@ -64,59 +63,59 @@
                     </select>
                 </div>
                 <br />
-       
-                <button type="submit" class="btn btn-danger float-right" onClick="clearAll();">Clear</button>
-            </div>
 
+                <button type="submit" class="btn btn-danger float-right" onClick="clearAll();">Clear</button>
+
+
+            </div>
+            <br />
             <div id="map"></div>
-        </div>
-        <br />
-        <p>Please see the below table for the list of hotel results that Google Maps has shown.
-            <i class="fas fa-hotel" aria-hidden="true"></i>
-        </p>
-        <div id="listing">
-            <table id="resultsTable">
-                <tbody id="results"></tbody>
-            </table>
-        </div>
-        <div style="display: none">
-            <div id="info-content">
-                <table>
-                    <tr id="iw-url-row" class="iw_table_row">
-                        <td id="iw-icon" class="iw_table_icon"></td>
-                        <td id="iw-url"></td>
-                    </tr>
-                    <tr id="iw-address-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Address:</td>
-                        <td id="iw-address"></td>
-                    </tr>
-                    <tr id="iw-phone-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Telephone:</td>
-                        <td id="iw-phone"></td>
-                    </tr>
-                    <tr id="iw-rating-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Rating:</td>
-                        <td id="iw-rating"></td>
-                    </tr>
-                    <tr id="iw-website-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Website:</td>
-                        <td id="iw-website"></td>
-                    </tr>
+            <br />
+            <p>Please see the below table for the list of hotel results that Google Maps has shown.
+                <i class="fas fa-hotel" aria-hidden="true"></i>
+            </p>
+            <div id="listing">
+                <table id="resultsTable">
+                    <tbody id="results"></tbody>
                 </table>
             </div>
-        </div>
-         <div class="row">
-                <div class="col-12">
-        <p>Please click on the below image to send an email for further information.
-            <i class="fas fa-plane" aria-hidden="true"></i>
-        </p>
-        <a href="contact.html" target="_blank">
-            <img class="contact" src="assets/images/couple_flight.jpg" alt="Link to Booking Map page">
-        </a>
-    </div>
-   </div>
-   <br/>
+            <div style="display: none">
+                <div id="info-content">
+                    <table>
+                        <tr id="iw-url-row" class="iw_table_row">
+                            <td id="iw-icon" class="iw_table_icon"></td>
+                            <td id="iw-url"></td>
+                        </tr>
+                        <tr id="iw-address-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Address:</td>
+                            <td id="iw-address"></td>
+                        </tr>
+                        <tr id="iw-phone-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Telephone:</td>
+                            <td id="iw-phone"></td>
+                        </tr>
+                        <tr id="iw-rating-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Rating:</td>
+                            <td id="iw-rating"></td>
+                        </tr>
+                        <tr id="iw-website-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Website:</td>
+                            <td id="iw-website"></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-12">
+                    <p>Please click on the below image to send an email for further information.
+                        <i class="fas fa-plane" aria-hidden="true"></i>
+                    </p>
+                    <a href="contact.html" target="_blank">
+                        <img class="contact" src="assets/images/couple_flight.jpg" alt="Link to Booking Map page">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="footer">
         <div class="container-fluid" id="footer-details">
@@ -147,5 +146,9 @@
     </footer>
 
 </body>
+<script src="assets/js/booking.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKl1sycBA1QwhbdIPgz_GHA8d-omz7-XY&callback=initMap&libraries=places&v=weekly"
+    type="text/javascript"></script>
 
 </html>

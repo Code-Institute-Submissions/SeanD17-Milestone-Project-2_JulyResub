@@ -15,12 +15,8 @@
         type="text/css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("user_Z3NhniKVmxQR4ouXUECcZ");
-        })();
-    </script>
-    <script src="assets/js/booking.js"></script>
+
+    
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Bookingzilla Contact Form</title>
 </head>
@@ -45,20 +41,24 @@
                 <p>Email me using the below form!</p>
                 <div class="center-form">
                     <form onsubmit="return sendMail(this);">
+                        <label for="name">Name:</label><br>
                         <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
                         <br />
+                        <label for="email">Email Address:</label><br>
                         <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
                         <br />
-                        <label for="depdate">Departure Date:</label><br>
-                        <input type="date" name="depdate" id="depdate" class="form-control" placeholder="Departure Date"
+                        <label for="hotel">Name of Hotel:</label><br>
+                        <input type="text" name="hotel" id="hotel" class="form-control" placeholder="Name of Hotel"
                             required />
                         <br />
-                        <label for="arrdate">Arrival Date:</label><br>
-                        <input type="date" name="arrdate" id="arrdate" class="form-control" placeholder="Arrival Date"
-                            required />
-                        <br />
-                        <input type="number" name="people" id="people" class="form-control" min=0 max=10
+                        <label for="people">Number of People:</label><br>
+                        <input type="number" name="people" id="people" class="form-control"  max=10
                             placeholder="Number of People" required />
+                        <div class="form-row text-center"></div>
+                            <br />
+                          <label for="comment">Comment:</label><br>
+                        <input type="textarea" name="comment" id="comment" class="form-control"
+                            placeholder="Please enter your comment here" required />
                         <div class="form-row text-center">
                             <br />
                             <div class="col">
@@ -100,5 +100,5 @@
         </div>
     </footer>
 </body>
-
+<script src="assets/js/emailJS.js"></script>
 </html>
