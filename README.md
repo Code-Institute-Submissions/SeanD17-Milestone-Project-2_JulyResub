@@ -9,10 +9,10 @@
 
 A holiday booking site to display attractions on a map based on the country the user searches for.
 
-The project has a couple of pages,
-a homepage listing the most popular destinations and a link to the map,
-a page with Google Maps and a table below that gets the details of all the hotel markers that a user has searched for in a city 
-and a page where the user can fill out a contact form with booking details that are then sent to me by email.
+The project has a couple of pages:
+!: A homepage listing the most popular destinations as a slideshow and a link to the map.
+2: A page with Google Maps and a table below that gets the details of all the hotel markers that a user has searched for in a city. 
+3: A page where the user can fill out a contact form about details of a hotel that was displayed on the previous page which is then sent to me by email.
 
 [Link to website](https://seand17.github.io/Milestone-Project-2/) here to see the website.
 
@@ -115,20 +115,21 @@ and a page where the user can fill out a contact form with booking details that 
 ## Validation:
 HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
-[Index Validation Result]()
+[Index Validation Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Findex.html)
 
-[Destination Validation Result]()
+[Destination Validation Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Fdestination.html)
 
-[Contact Validation Result]()
+[Contact Validation Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Fcontact.html)
 
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
-[Validation Result]()
+[Validation Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation
 [Booking Validation Result]()
-[Send Email Validation Result]()
+[EmailJS Validation Result]()
+[Slideshow Validation Result]()
 
 ## Project Bugs and Solutions:
 
@@ -168,7 +169,7 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
 
 All text content in this website was written by me.
 
-<span>Data used in table on the homepage was obtained from <a href="https://en.wikipedia.org/wiki/World_Tourism_rankings">here</a></span>
+<span>Tourist numbers used in slideshow on index page was obtained from <a href="https://en.wikipedia.org/wiki/World_Tourism_rankings">here</a></span>
 
 ## Media:
 
