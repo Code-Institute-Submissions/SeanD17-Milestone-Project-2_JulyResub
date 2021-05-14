@@ -1,14 +1,14 @@
 var slideIndex = 1;
 showSlides(slideIndex);
-
+//goes to the next image in the slideshow when the > is clicked
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-
+//shoes the current image of the slideshow
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
-
+//function that goes through each image in the slideshow and displays them
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("slideshow");

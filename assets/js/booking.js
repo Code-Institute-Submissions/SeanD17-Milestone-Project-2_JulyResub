@@ -128,7 +128,7 @@ function search() {
         }
     });
 }
-
+//Clears all the markers from the map when this function is called
 function clearMarkers() {
     for (let i = 0; i < markers.length; i++) {
         if (markers[i]) {
@@ -162,13 +162,12 @@ function setAutocompleteCountry() {
     clearResults();
     clearMarkers();
 }
-
+//function that adds markers to the map
 function dropMarker(i) {
     return function () {
         markers[i].setMap(map);
     };
 }
-
 function addResult(result, i) {
     const results = document.getElementById("results");
     const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
@@ -270,11 +269,11 @@ function buildIWContent(place) {
     }
 
 }
-
+//removes the text in the enter a city field that the user has entered
 function clearSearch() {
     document.getElementById("autocomplete").value = "";
 }
-
+//calls on the functions clearResults() and clearSearch() in addition to setting the map view back to the default location of the country Spain
 function clearAll() {
 
     clearResults();

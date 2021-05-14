@@ -33,12 +33,13 @@
 
 }
 
-.slideshow p,
+.col h3,
 .slideshow h3 {
-    color: coral;
-    text-align: center;
+    color: snow;
     font-weight: bold;
+    text-align: center;
 }
+
 
 h3 {
     color: snow;
@@ -60,8 +61,8 @@ p {
 
 /*Google Maps*/
 #map {
-    min-height: 400px;
-
+    min-height: 360px;
+   
 
 }
 
@@ -215,6 +216,6 @@ label {
 #comment {
     display: block;
     margin: auto;
-
+    width: 50%;
     height: 100px;
 }

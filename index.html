@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -13,11 +13,12 @@
         type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
-
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Bookingzilla Homepage</title>
 </head>
 
 <body>
+    <!-- Header that has a link to the index page -->
     <header class="jumbotron" id="navigation">
         <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -40,6 +41,7 @@
             </div>
 
             <div class="col">
+                <!-- Suitcase icon got from FontAwesome -->
                 <p>Please see the below slideshow for countries with the most tourists per year,and the top 3
                     cities with the most tourists.
                     <i class="fas fa-suitcase" aria-hidden="true"></i>
@@ -49,11 +51,13 @@
                 </p>
             </div>
             <br />
+            <!-- Slideshow with details of countries with the most tourist -->
             <div class="slideshow-container">
 
-                <!-- Full-width images with number and caption text -->
-                <div class="slideshow">
 
+
+                <div class="slideshow">
+                    <!-- Image of each country, the country name, number of tourists per year and the top 3 cities-->
                     <img class="icon" src="assets/images/spain.jpg" alt="Spain">
                     <h3>Spain</h3>
                     <p>83.5m</p>
@@ -84,10 +88,12 @@
                     <p>Mexico City,Cancun,Meridia</p>
                 </div>
                 <br />
+                <!-- Calls on a function in the emailJS file that goes to the next image in the slideshow -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
             <div style="text-align:center">
+                <!-- Calls on a function that goes to the slide that is assigned the below number -->
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
@@ -95,6 +101,7 @@
                 <span class="dot" onclick="currentSlide(5)"></span>
             </div>
             <br />
+            <!-- Image that when clicked on brings the user to the destination page -->
             <div class="row">
                 <div class="col-12">
                     <p>Please click on the below image to search for a destination on Google Maps.
@@ -110,6 +117,7 @@
         </div>
     </div>
     </div>
+    <!-- Used to display my contact details through my social media links -->
     <footer class="footer">
         <div class="container-fluid" id="footer-details">
             <div class="row">
@@ -139,6 +147,7 @@
     </footer>
 
 </body>
+<!-- calls on the below file in order for the slideshow to work properly -->
 <script src="assets/js/slideshow.js"></script>
 
 </html>

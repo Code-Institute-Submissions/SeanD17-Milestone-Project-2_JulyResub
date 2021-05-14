@@ -76,7 +76,7 @@ I have included wireframes for each page on this website, click on the below pag
 
 [Homepage](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Holiday%20Booking%20Homepage.pdf)
 
-[Destination](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Holiday%20Booking%20Homepage.pdf)
+[Destination](https://github.com/SeanD17/Milestone-Project-2/blob/c8bba7927154286896b968bd99dd8baef9e5343a/assets/wireframes/Holiday%20Booking.pdf)
 
 [Contact](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Contact%20Form.pdf)
 
@@ -133,7 +133,6 @@ Google Places  returns multiple data items on the locations and these are used t
     
 A second event listener is used to check if a marker has been clicked and will display an information window with the relevant place details.
     
-Each radio option defines a place type to display markers for any locations on the map defined with the same place type as the one selected. Some of the options are set to use more than one place type, these are defined using a comma separated list. 
     
 ## Libraries:
 [FontAwesome](https://fontawesome.com/)
@@ -166,11 +165,11 @@ Used for the creation of wireframes
 ## Validation:
 HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
-[Index Validation Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Findex.html)
+[Index Validation Result]()
 
-[Destination Validation Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Fdestination.html)
+[Destination Validation Result]()
 
-[Contact Validation Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Fcontact.html)
+[Contact Validation Result]()
 
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
