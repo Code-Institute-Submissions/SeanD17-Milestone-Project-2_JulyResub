@@ -72,8 +72,13 @@ The project has a couple of pages:
 
 
 ## Wireframes:
+I have included wireframes for each page on this website, click on the below page names to see these wireframes:
 
+[Homepage](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Holiday%20Booking%20Homepage.pdf)
 
+[Destination](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Holiday%20Booking%20Homepage.pdf)
+
+[Contact](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Contact%20Form.pdf)
 
 ## Features:
 
@@ -88,11 +93,54 @@ The project has a couple of pages:
 
 
 ## Technologies Used:
+[HTML](https://html.com/)
+Used to create the structure of the web site.
 
+[CSS](https://www.w3schools.com/css/css_intro.asp)
+Used to style the website
 
+[Bootstrap](https://getbootstrap.com/)
+Used to design the site for mobile users and for other features.
 
+[JavaScript](https://www.javascript.com)
+Used throughout the web application to perform various functions such as:
+ 
+Loading the map and using co-ordinates to display a default map.
+
+Load the new location on the map based on the Google Places search performed by the user.
+
+Place Markers on the map based on the 'Enter a city' location search, and clear the markers by using a Clear button.
+
+Compile the results of the nearby location search into a table, and build dynamic HTML code to display the results list in a structured table format each time the user completes a search.
+ 
+Build the search results data into an information window which is activated when the user clicks on a marker.
+
+[Google Maps API](https://cloud.google.com/maps-platform/maps/)
+Used in this project in order to display a customised and interactive map to display the user's searched location, and also to display customised markers for an additional search of nearby places.
+
+The default map was loaded with a set location using Longitude and Latitude co-ordinates for the country of Spain as it was the first country displayed on the homepage's slideshow.
+
+The zoom level of the map was also set to allow the user to see streets and landmarks around city that the user searched for.
+
+Users can control the zoom on the map, and can zoom in or out with ease.
+
+[Google Places API](https://cloud.google.com/maps-platform/places/)
+Used together with the search bar to control the location displayed on the map, and provide autocomplete for place names as search is being completed. 
+    
+An event listener is used to check the autocomplete search bar for the place_changed event, when this is true, it then calls the OnPlaceChanged function to update the map for the new location.
+     
+Google Places  returns multiple data items on the locations and these are used to fill both the Results table, as well displaying place details in an information window if the place marker on the map is clicked.
+    
+A second event listener is used to check if a marker has been clicked and will display an information window with the relevant place details.
+    
+Each radio option defines a place type to display markers for any locations on the map defined with the same place type as the one selected. Some of the options are set to use more than one place type, these are defined using a comma separated list. 
+    
 ## Libraries:
+[FontAwesome](https://fontawesome.com/)
+Used frequently for icons used throughout the website
 
+[Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIn-_lgbiJ7QIVn4BQBh1X3Av6EAAYASAAEgL1XfD_BwE)
+Used for the creation of wireframes
 
 
 ## Version Control:

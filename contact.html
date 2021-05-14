@@ -16,7 +16,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
 
-    
+
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Bookingzilla Contact Form</title>
 </head>
@@ -52,11 +52,11 @@
                             required />
                         <br />
                         <label for="people">Number of People:</label><br>
-                        <input type="number" name="people" id="people" class="form-control"  max=10
+                        <input type="number" name="people" id="people" class="form-control" min=0 max=10
                             placeholder="Number of People" required />
                         <div class="form-row text-center"></div>
-                            <br />
-                          <label for="comment">Comment:</label><br>
+                        <br />
+                        <label for="comment">Comment:</label><br>
                         <input type="textarea" name="comment" id="comment" class="form-control"
                             placeholder="Please enter your comment here" required />
                         <div class="form-row text-center">
@@ -101,4 +101,5 @@
     </footer>
 </body>
 <script src="assets/js/emailJS.js"></script>
+
 </html>
