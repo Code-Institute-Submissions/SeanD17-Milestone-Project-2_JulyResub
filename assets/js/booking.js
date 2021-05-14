@@ -276,7 +276,7 @@ function clearSearch() {
 }
 
 function clearAll() {
-    clearMarkers();
+
     clearResults();
     clearSearch();
     map = new google.maps.Map(document.getElementById("map"), {

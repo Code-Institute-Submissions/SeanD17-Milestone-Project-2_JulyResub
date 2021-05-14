@@ -10,8 +10,11 @@
 A holiday booking site to display attractions on a map based on the country the user searches for.
 
 The project has a couple of pages:
-!: A homepage listing the most popular destinations as a slideshow and a link to the map.
+
+1: A homepage listing the most popular destinations as a slideshow and a link to the map.
+
 2: A page with Google Maps and a table below that gets the details of all the hotel markers that a user has searched for in a city. 
+
 3: A page where the user can fill out a contact form about details of a hotel that was displayed on the previous page which is then sent to me by email.
 
 [Link to website](https://seand17.github.io/Milestone-Project-2/) here to see the website.
@@ -127,8 +130,11 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 [Validation Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation
+
 [Booking Validation Result]()
+
 [EmailJS Validation Result]()
+
 [Slideshow Validation Result]()
 
 ## Project Bugs and Solutions:
@@ -141,7 +147,9 @@ JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation
 
 ## Deployment:
 
-Once a GIthub account was created, I opened a new repository by clicking the green button "new". To create this project, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
+Once a GIthub account was created, I opened a new repository by clicking the green button "new". 
+
+To create this project, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
 Click on the green "gitpod" button where one is redirected to to [Gitpod](https://gitpod.io/)
 
