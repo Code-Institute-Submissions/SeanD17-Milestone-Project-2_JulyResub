@@ -85,8 +85,9 @@ I would then direct them towards the contact form that they can fill out.
 I also provided my profile links to GitHub and LinkedIn.
 
 ## Surface:
+I chose the beach background to go with the holiday theme and used white text color to make it stand out against the background.
 
-
+The blue background footer was chosen to compliment the white text colour.
 
 ## Icons:
 I used Font Awesome for the social media icons of GitHub and LinkedIn,as well as for various icons seen throughout the site.
