@@ -19,7 +19,7 @@ The project has a couple of pages:
 
 [Link to website](https://seand17.github.io/Milestone-Project-2/) here to see the website.
 
-![Website]()
+![Website](https://github.com/SeanD17/Milestone-Project-2/blob/e90fff09a79faced5f7cbf1642d7ef9e6dc0f5a6/assets/images/bookingzilla.png)
 
 ## Table of Contents
 > - [UX](#ux)
