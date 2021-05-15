@@ -11,6 +11,7 @@
 
 }
 
+/*Below rules are applied to the background image used throughout the website*/
 #beach {
     background-attachment: fixed;
     background-image: url('../images/beach.jpg');
@@ -19,6 +20,7 @@
     padding-bottom: 20%;
 }
 
+/*Image used to direct user to the contact html*/
 .contact {
     display: block;
     margin: auto;
@@ -26,6 +28,7 @@
 
 }
 
+/*Image used to direct user to the destination html*/
 .destination {
     display: block;
     margin: auto;
@@ -33,27 +36,21 @@
 
 }
 
-.col h3,
-.slideshow h3 {
-    color: snow;
-    font-weight: bold;
-    text-align: center;
-}
-
-
+/*Heading 3 */
 h3 {
     color: snow;
     font-weight: bold;
     text-align: center;
 }
 
+/* Paragraph*/
 p {
     color: snow;
     text-align: center;
     font-weight: bold;
 }
 
-
+/* Table that displays the list of hotels from Google Maps on destination html */
 .table {
     align-items: center;
     background: snow;
@@ -62,32 +59,37 @@ p {
 /*Google Maps*/
 #map {
     min-height: 360px;
-   
+
 
 }
 
+/*Search bar in destination html used to search for hotels in cities on Google Maps */
 .hotel-search {
     text-align: center;
 
 }
 
+/*Dropdown of 5 countries,Spain,Italy,Thailand.Mexico and Turkey */
 #country,
 #autocomplete {
     width: 25%;
     text-align: center;
 }
 
+/* Image used in the InforWindow of Google maps */
 .placeIcon {
     width: 20px;
     height: 34px;
     margin: 4px;
 }
 
+/* Same as .placeIcon rule */
 .hotelIcon {
     width: 24px;
     height: 24px;
 }
 
+/* Table below Google Maps to display list of hotels */
 #resultsTable {
     border-collapse: collapse;
     width: 100%;
@@ -95,20 +97,24 @@ p {
 
 }
 
+/* 5 stars rating of each hotel in the InfoWindow */
 #rating {
     font-size: 13px;
     font-family: Arial Unicode MS;
 }
 
+/* InfoWindow*/
 .iw_table_row {
     height: 18px;
 }
 
+/* InfoWindow */
 .iw_attribute_name {
     font-weight: bold;
     text-align: right;
 }
 
+/* InfoWindow */
 .iw_table_icon {
     text-align: right;
 }
@@ -118,6 +124,7 @@ p {
     font-size: 14px;
 }
 
+/* My Contact details */
 footer {
     background-color: dodgerblue;
     color: snow;
@@ -125,17 +132,20 @@ footer {
     padding-bottom: 20%;
 }
 
+/* Social Media icons */
 .social-links li a i {
     color: #fafafa;
     background: #8f8f8f;
     font-size: 25px;
 }
 
+/* Changes the color of the social media links when moused over */
 .social-links li a i:hover {
     color: darkorange;
     background: #8f8f8f;
 }
 
+/* Images displayed in slideshow */
 .icon {
     display: block;
     margin: auto;
@@ -191,11 +201,13 @@ footer {
     transition: background-color 0.6s ease;
 }
 
+/* Changes background color of dot when moused over */
 .active,
 .dot:hover {
     background-color: #717171;
 }
 
+/* IDs of each data fields in the contact form */
 #name,
 #email,
 #hotel,
@@ -206,6 +218,7 @@ footer {
 
 }
 
+/* Labels in the contact form */
 label {
     width: 50%;
     display: block;
@@ -213,6 +226,7 @@ label {
     color: white;
 }
 
+/* Xomment box */
 #comment {
     display: block;
     margin: auto;
