@@ -92,7 +92,6 @@ The blue background footer was chosen to compliment the white text colour.
 ## Icons:
 I used Font Awesome for the social media icons of GitHub and LinkedIn,as well as for various icons seen throughout the site.
 
-
 ## Wireframes:
 I have included wireframes for each page on this website, click on the below page names to see these wireframes:
 
@@ -108,10 +107,27 @@ I have included wireframes for each page on this website, click on the below pag
 
 <strong>Feature 1:</strong>
 
+The navigation bar on the top will stay to the screen when the user scrolls down the page when viewing on a tablet or phone for easy navigation as well as link back to the index page.
+
+<strong>Feature 2:</strong>
+
+A slideshow that when clicked on by a user, changes the current image to the next image in the slideshow.
+
+<strong>Feature 3:</strong>
+
+A search bar that allows the user to type in a city and returns the number of hotels in that city that are then displayed on Google Maps.
+
+<strong>Feature 4:</strong>
+
+A results table that is displayed below the Map that shows the number of hotels in the city the user has searched for.
+
+<strong>Feature 5:</strong>
+
+A form that user can fill out and using EmailJS, sends the details into an email template that is then sent to me.
 
 
 ## Features Left to Implement:
-
+I would like to be able to transfer the results table of hotels to the contact page by use of a button, this will make it easy for the user to remember the hotel name that they are emailing about.
 
 
 ## Technologies Used:
