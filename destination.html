@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-   
+
     <title>Book a Destination</title>
 </head>
 
@@ -62,6 +62,7 @@
                 </div>
                 <br />
                 <!-- Button that removes the user input and markers from Google Maps -->
+                <!-- Below button code gotten from here:https://github.com/eldowling/holiday-search-google-maps -->
                 <button type="submit" class="btn btn-danger float-right" onClick="clearAll();">Clear</button>
 
 
@@ -147,7 +148,7 @@
             </div>
         </div>
     </footer>
- <!-- calls on the below file in order for Google Maps to work properly -->
+    <!-- calls on the below file in order for Google Maps to work properly -->
     <script src="assets/js/booking.js"></script>
     <!-- calls on the below api key to properly display Google Maps-->
     <script async defer

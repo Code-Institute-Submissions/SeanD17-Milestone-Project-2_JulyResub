@@ -1,10 +1,11 @@
+//Below code gotten from this website:https://www.w3schools.com/howto/howto_js_slideshow.asp
 var slideIndex = 1;
 showSlides(slideIndex);
 //goes to the next image in the slideshow when the > is clicked
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-//shoes the current image of the slideshow
+//shows the current image of the slideshow
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }

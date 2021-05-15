@@ -22,7 +22,7 @@ const countries = {
         zoom: 5,
     },
     it: {
-    
+
         center: {
             lat: 42.83,
             lng: 12.54
@@ -168,6 +168,7 @@ function dropMarker(i) {
         markers[i].setMap(map);
     };
 }
+
 function addResult(result, i) {
     const results = document.getElementById("results");
     const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
@@ -270,6 +271,7 @@ function buildIWContent(place) {
 
 }
 //removes the text in the enter a city field that the user has entered
+//below function code gotten from here:https://github.com/eldowling/holiday-search-google-maps
 function clearSearch() {
     document.getElementById("autocomplete").value = "";
 }
@@ -287,4 +289,3 @@ function clearAll() {
         streetViewControl: false,
     });
 }
-
