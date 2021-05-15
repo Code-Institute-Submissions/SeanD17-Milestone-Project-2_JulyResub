@@ -47,9 +47,29 @@ The project has a couple of pages:
 ## UX:
 
 ## User Stories:
+As a User:
 
+"I want to see what are the most popular countries tourists are going to each year and what are the top cities"
 
+![Slideshow]()
 
+"I want to search for a particular city on one of the most popular countries I saw from the homepage and see what kind of hotels are there"
+
+![City Search]()
+
+"I want to see all the hotels in the city I searched for to be displayed"
+
+![Hotel Names]()
+
+"If I make a mistake when searching for a city, I want to delete all so that I can start my search again"
+
+![Clear Result Before]()
+
+![Clear Result After]()
+
+"I want to be able to send an email or fill out a form so that I can get more details on a particular hotel I have found on Google Maps"
+
+![Form]()
 
 ## Strategy:
 
@@ -165,11 +185,11 @@ Used for the creation of wireframes
 ## Validation:
 HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
-[Index Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/2b98e0420f69f327b2097426d4b0051d66af9515/assets/images/index%20validation.png)
+[Index Validation Result]()
 
-[Destination Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/master/assets/images/destination%20validation.png)
+[Destination Validation Result]()
 
-[Contact Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/cc2d9690a27ac1298f0fa62a75394cab448007ff/assets/images/contact%20validation.png)
+[Contact Validation Result]()
 
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
