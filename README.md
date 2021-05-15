@@ -162,7 +162,7 @@ Used together with the search bar to control the location displayed on the map, 
     
 An event listener is used to check the autocomplete search bar for the place_changed event, when this is true, it then calls the OnPlaceChanged function to update the map for the new location.
      
-Google Places  returns multiple data items on the locations and these are used to fill both the Results table, as well as displaying place details in an information window if the place marker on the map is clicked.
+Google Places returns multiple data items on the locations and these are used to fill both the Results table, as well as displaying place details in an information window if the place marker on the map is clicked.
     
 A second event listener is used to check if a marker has been clicked and will display an information window with the relevant place details.
     
@@ -194,7 +194,7 @@ Used for the creation of wireframes
 ## Testing:
 This website was tested through 3 Web Browsers, Microsoft Edge,Google Chrome and Mozilla Firefox.
 
-The slideshow is expected to go to the previous or next image when the user clicks on one of the arrow beside each image,I tested this by clcking the arrows,the image would then change to the next image in the slideshow.
+The slideshow is expected to go to the previous or next image when the user clicks on one of the arrow beside each image,I tested this by clicking the arrows,the image would then change to the next image in the slideshow.
 
 The enter a city search bar is expected to come up with city suggestions when the user types in a letter or word,however if the user types in a city that does not exist in the country they have picked, e.g. Dublin in Spain, no city name result will show up and the Map will not go to the city location and populate it with markers, this is expected.
 
@@ -240,15 +240,19 @@ JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation
 [Slideshow Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/538eaca96289f9036a58ab682d396111664f5d33/assets/js/slideshow.js)
 
 ## Project Bugs and Solutions:
+When viewed on the AmIResponsive website, I noticed that one of the images was stretched out so far that a horizontal bar was present in the mobile view.
 
+This bug was caused as a result of me setting the image's width to a fixed number of pixels, which caused it to stretch out on smaller devices like the mobile.
 
+This bug was fixed by changing the width pixels to a percentage so that it would automatically resize the image on the mobile view.
 
 ## Remaining bugs: 
+If a user searches for hotels in a city on Google Maps that doesn't have any, markers will not be placed onto the map and no results are shown on the table below the map.
 
-
+When the user clicks on the arrows of the slideshow to go to the next image, the page size changes to accommodate the image size even though I have set a rule to have the width have an automatic percentage of 50%.
 
 ## Deployment:
-Once a GIthub account was created, I opened a new repository by clicking the green button "new". 
+Once a GitHub account was created, I opened a new repository by clicking the green button "new". 
 
 To create this project, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
@@ -272,6 +276,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
+In addition,the API key has being secured with HTTP and the API will only run properly when viewed on GitHub pages, any other attempt to view this website will result in the API not working.
 ## Credits:
 
 ## Content:
