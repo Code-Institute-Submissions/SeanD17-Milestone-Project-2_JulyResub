@@ -78,8 +78,11 @@ I wanted to create a user friendly website that would display the most popular c
 I wanted to show users popular travel countries as well as the ability to search for a city for hotels on Google Maps.
 
 ## Structure:
+I wanted to point the user towards the slideshow of countries that have the most tourists per year.then direct them to the Google Maps page to search for hotels in a city they search for.
 
+I would then direct them towards the contact form that they can fill out.
 
+I also provided my profile links to GitHub and LinkedIn.
 
 ## Surface:
 
