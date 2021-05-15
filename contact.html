@@ -13,10 +13,7 @@
         type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-    </script>
-
-    <script src="assets/js/emailJS.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Bookingzilla Contact Form</title>
 </head>
@@ -42,7 +39,7 @@
                     email. </p>
                 <!-- Form that when filled out by a user, is sent to me by email using the EmailJS service -->
                 <div class="center-form">
-                      <!-- Calls on the below function to send details from the form to me through EmailJS -->
+                    <!-- Calls on the below function to send details from the form to me through EmailJS -->
                     <form onsubmit="return sendMail(this);">
                         <label for="name">Name:</label><br>
                         <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
@@ -50,20 +47,20 @@
                         <label for="email">Email Address:</label><br>
                         <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
                         <br />
-                          <!--Name of Hotel from the results table on the previous page, destination html -->
+                        <!--Name of Hotel from the results table on the previous page, destination html -->
                         <label for="hotel">Name of Hotel:</label><br>
                         <input type="text" name="hotel" id="hotel" class="form-control" placeholder="Name of Hotel"
                             required />
                         <br />
-                          <!-- Min number is 0, max is 10-->
+                        <!-- Min number is 0, max is 10-->
                         <label for="people">Number of People:</label><br>
                         <input type="number" name="people" id="people" class="form-control" min=0 max=10
                             placeholder="Number of People" required />
                         <div class="form-row text-center"></div>
                         <br />
                         <label for="comment">Comment:</label><br>
-                        <input type="text" name="comment" id="comment" class="form-control"
-                            placeholder="Comment here" required />
+                        <input type="text" name="comment" id="comment" class="form-control" placeholder="Comment here"
+                            required />
                         <div class="form-row text-center">
                             <br />
                             <div class="col">
@@ -105,6 +102,8 @@
         </div>
     </footer>
 
+
+    <script src="assets/js/emailJS.js"></script>
 </body>
 
 
