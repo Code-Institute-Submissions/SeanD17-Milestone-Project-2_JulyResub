@@ -130,7 +130,7 @@ I would like to be able to transfer the results table of hotels to the contact p
 Used to create the structure of the web site.
 
 [CSS](https://www.w3schools.com/css/css_intro.asp)
-Used to style the website
+Used to style the website.
 
 [Bootstrap](https://getbootstrap.com/)
 Used to design the site for mobile users and for other features.
@@ -171,10 +171,10 @@ Used to get details from the contact form and then put it into an email template
 
 ## Libraries:
 [FontAwesome](https://fontawesome.com/)
-Used frequently for icons used throughout the website
+Used frequently for icons used throughout the website.
 
 [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIn-_lgbiJ7QIVn4BQBh1X3Av6EAAYASAAEgL1XfD_BwE)
-Used for the creation of wireframes
+Used for the creation of wireframes.
 
 
 ## Version Control:
@@ -219,7 +219,7 @@ Once the Submit button is clicked, an email is sent to me with the form details 
 The user is not told if the email was sent or not,as i couldn't find a way of displaying a message saying the form has being sent.
 
 ## Validation:
-HTML - [W3C](https://validator.w3.org/) - Markup Validation
+HTML - [W3C](https://validator.w3.org/) - Markup Validation.
 
 [Index Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/index_validation.png)
 
@@ -227,17 +227,17 @@ HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
 [Contact Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/contact_validation.png)
 
-CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation.
 
 [Validation Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation
+JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation.
 
-[Booking Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/538eaca96289f9036a58ab682d396111664f5d33/assets/js/booking.js)
+[Booking Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/2898a11482c346a6142d14344d2812add75ac626/assets/images/booking.png)
 
-[EmailJS Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/538eaca96289f9036a58ab682d396111664f5d33/assets/js/emailJS.js)
+[EmailJS Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/2898a11482c346a6142d14344d2812add75ac626/assets/images/emailJS.png)
 
-[Slideshow Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/538eaca96289f9036a58ab682d396111664f5d33/assets/js/slideshow.js)
+[Slideshow Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/2898a11482c346a6142d14344d2812add75ac626/assets/images/slideshow.png)
 
 ## Project Bugs and Solutions:
 When viewed on the AmIResponsive website, I noticed that one of the images was stretched out so far that a horizontal bar was present in the mobile view.
@@ -256,15 +256,15 @@ Once a GitHub account was created, I opened a new repository by clicking the gre
 
 To create this project, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
-Click on the green "gitpod" button where one is redirected to to [Gitpod](https://gitpod.io/)
+Click on the green "gitpod" button where one is redirected to to [Gitpod](https://gitpod.io/).
 
 Gitpod, a cloud-based version control software or IDE was used to write all code for this project.
 
-It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/SeanD17/Milestone-Project-2)
+It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/SeanD17/Milestone-Project-2).
 
 Under "Settings", I scrolled down to Github Pages and selected "Master Branch" under source, to where the page was automated.
 
-Once this was selected, the project was pushed to Github pages and the URL is then displayed
+Once this was selected, the project was pushed to Github pages and the URL is then displayed.
 
 To access the code, it can be run locally by either selecting "clone" which provides an URL one can use on their local machine or "download" which is where one can download the zip file on to their machine.
 
@@ -282,36 +282,36 @@ In addition,the API key has being secured with HTTP and the API will only run pr
 ## Content:
 All text content in this website was written by me.
 
-<span>Tourist numbers used in slideshow on index page was obtained from <a href="https://en.wikipedia.org/wiki/World_Tourism_rankings">here</a></span>
+<span>Tourist numbers used in slideshow on index page was obtained from <a href="https://en.wikipedia.org/wiki/World_Tourism_rankings">here.</a></span>
 
 ## Media:
 The photos used in this site were obtained from:
 
-<span>Bed icon obtained from <a href="https://fontawesome.com/icons/hotel">here</a></span>
+<span>Bed icon obtained from <a href="https://fontawesome.com/icons/hotel">here.</a></span>
 
-<span>Globe icon obtained from <a href="https://fontawesome.com/icons/globe-americas?style=solid">here</a></span>
+<span>Globe icon obtained from <a href="https://fontawesome.com/icons/globe-americas?style=solid">here.</a></span>
 
 <span>Map icon obtained from <a href="https://fontawesome.com/icons/map-marked-alt?style=solid">here</a></span>
 
-<span>Suitcase icon obtained from <a href="https://fontawesome.com/icons/suitcase?style=solid">here</a></span>
+<span>Suitcase icon obtained from <a href="https://fontawesome.com/icons/suitcase?style=solid">here.</a></span>
 
-<span>Plane icon obtained from <a href="https://fontawesome.com/icons/plane?style=solid">here</a></span>
+<span>Plane icon obtained from <a href="https://fontawesome.com/icons/plane?style=solid">here.</a></span>
 
-<span>Couple boarding plane obtained from <a href="https://www.istockphoto.com/photo/couple-leaving-for-a-vacation-gm951105550-259628198">here</a></span>
+<span>Couple boarding plane obtained from <a href="https://www.istockphoto.com/photo/couple-leaving-for-a-vacation-gm951105550-259628198">here.</a></span>
 
-<span>Couple on beach obtained from <a href="https://depositphotos.com/212620776/stock-photo-happy-young-couple-walking-together.html">here</a></span>
+<span>Couple on beach obtained from <a href="https://depositphotos.com/212620776/stock-photo-happy-young-couple-walking-together.html">here.</a></span>
 
-<span>Beach background obtained from <a href="https://unsplash.com/@apviktor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Viktor Jakovlev</a> on <a href="https://unsplash.com/@apviktor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">here</a></span>
+<span>Beach background obtained from <a href="https://unsplash.com/@apviktor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">here.</a></span>
 
-<span>Hagia Sophia in Turkey obtained from <a href="https://www.voanews.com/europe/greek-businesses-move-boycott-trade-turkey-over-hagia-sophia">here</a></span>
+<span>Hagia Sophia in Turkey obtained from <a href="https://www.voanews.com/europe/greek-businesses-move-boycott-trade-turkey-over-hagia-sophia">here.</a></span>
 
-<span>Colosseum in Italy obtained from <a href="https://www.smithsonianmag.com/smart-news/italy-plans-install-floors-colosseum-1-180976635/">here</a></span>
+<span>Colosseum in Italy obtained from <a href="https://www.smithsonianmag.com/smart-news/italy-plans-install-floors-colosseum-1-180976635/">here.</a></span>
 
-<span>Malaga in Spain obtained from <a href="https://www.hellehollis.com/blog/en/scenic-drives-around-malaga.htm">here</a></span>
+<span>Malaga in Spain obtained from <a href="https://www.hellehollis.com/blog/en/scenic-drives-around-malaga.htm">here.</a></span>
 
-<span>San Miguel de Allende in Mexico obtained from <a href="https://www.travelagentcentral.com/destinations/san-miguel-de-allende-making-its-mark-culinary-world">here</a></span>
+<span>San Miguel de Allende in Mexico obtained from <a href="https://www.travelagentcentral.com/destinations/san-miguel-de-allende-making-its-mark-culinary-world">here.</a></span>
 
-<span>Grand Palace in Thailand obtained from <a href="http://www.asiaessencetours.com/destinations/thailand/bangkok/the-grand-palace.htm">here</a></span>
+<span>Grand Palace in Thailand obtained from <a href="http://www.asiaessencetours.com/destinations/thailand/bangkok/the-grand-palace.htm">here.</a></span>
   
 ## Acknowledgments:
 I received inspiration for this project from my mentor Nishant Kumar.
