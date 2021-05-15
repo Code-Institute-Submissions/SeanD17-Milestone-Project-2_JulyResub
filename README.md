@@ -75,8 +75,7 @@ As a User:
 I wanted to create a user friendly website that would display the most popular countries through a slideshow,search for hotels on Google Maps, and to fill out a form that I would receive by email.
 
 ## Scope:
-
-
+I wanted to show users popular travel countries as well as the ability to search for a city for hotels on Google Maps.
 
 ## Structure:
 
