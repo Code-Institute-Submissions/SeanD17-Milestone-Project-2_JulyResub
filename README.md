@@ -106,23 +106,18 @@ I have included wireframes for each page on this website, click on the below pag
 <p align="center"><strong>Existing Features:</strong>
 
 <strong>Feature 1:</strong>
-
 The navigation bar on the top will stay to the screen when the user scrolls down the page when viewing on a tablet or phone for easy navigation as well as link back to the index page.
 
 <strong>Feature 2:</strong>
-
 A slideshow that when clicked on by a user, changes the current image to the next image in the slideshow.
 
 <strong>Feature 3:</strong>
-
 A search bar that allows the user to type in a city and returns the number of hotels in that city that are then displayed on Google Maps.
 
 <strong>Feature 4:</strong>
-
 A results table that is displayed below the Map that shows the number of hotels in the city the user has searched for.
 
 <strong>Feature 5:</strong>
-
 A form that user can fill out and using EmailJS, sends the details into an email template that is then sent to me.
 
 
@@ -167,7 +162,7 @@ Used together with the search bar to control the location displayed on the map, 
     
 An event listener is used to check the autocomplete search bar for the place_changed event, when this is true, it then calls the OnPlaceChanged function to update the map for the new location.
      
-Google Places  returns multiple data items on the locations and these are used to fill both the Results table, as well displaying place details in an information window if the place marker on the map is clicked.
+Google Places  returns multiple data items on the locations and these are used to fill both the Results table, as well as displaying place details in an information window if the place marker on the map is clicked.
     
 A second event listener is used to check if a marker has been clicked and will display an information window with the relevant place details.
     
@@ -197,8 +192,31 @@ Used for the creation of wireframes
 [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices. 
 
 ## Testing:
+This website was tested through 3 Web Browsers, Microsoft Edge,Google Chrome and Mozilla Firefox.
 
+The slideshow is expected to go to the previous or next image when the user clicks on one of the arrow beside each image,I tested this by clcking the arrows,the image would then change to the next image in the slideshow.
 
+The enter a city search bar is expected to come up with city suggestions when the user types in a letter or word,however if the user types in a city that does not exist in the country they have picked, e.g. Dublin in Spain, no city name result will show up and the Map will not go to the city location and populate it with markers, this is expected.
+
+If a city on Google Maps does not have any hotels for the markers to be placed onto the map, the map will still go to the city location but will not populate the map with markers or display the results into the table below the map,this is expected but i would have liked to display a message to the user saying that this city does not have any hotels listed on Google Maps.
+
+All three displayed the exact same website layout without any noticeable changes.
+
+The clear button when clicked on deletes all the hotel markers on the map as well as the city that the user searched for, in addition, the map goes back to the country of Spain.
+
+All links on the site when clicked on will open to a new tab.
+
+The website was tested on an Android smartphone and a Samsung Tablet.
+
+The website has being designed to accommodate the screen sizes of smartphones and tablets. 
+
+On the Contact form page of the website,all the fields are required and must be filled before clicking the submit button. 
+
+Once the Submit button is clicked, an email is sent to me with the form details the user has entered.
+
+![Email](https://github.com/SeanD17/Milestone-Project-2/blob/master/assets/images/holiday_booking.png)
+
+The user is not told if the email was sent or not,as i couldn't find a way of displaying a message saying the form has being sent.
 
 ## Validation:
 HTML - [W3C](https://validator.w3.org/) - Markup Validation
