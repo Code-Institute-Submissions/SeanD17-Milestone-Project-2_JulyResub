@@ -13,9 +13,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-
-
-
+    <!-- calls on the below file in order for Google Maps to work properly -->
+    <script src="assets/js/booking.js"></script>
+    <!-- calls on the below api key to properly display Google Maps-->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKl1sycBA1QwhbdIPgz_GHA8d-omz7-XY&callback=initMap&libraries=places&v=weekly">
+    </script>
     <title>Book a Destination</title>
 </head>
 
@@ -46,14 +49,14 @@
                     display hotels,attractions and landmarks on Google Maps.
                     <i class="fas fa-globe-americas" aria-hidden="true"></i>
                 </p>
-
+                <!-- User enters in a city into this text box -->
                 <div id="locationField">
                     <input id="autocomplete" placeholder="Enter a city" type="text" />
                 </div>
                 <br />
 
                 <div id="controls">
-
+                    <!-- Dropdown of 5 countries -->
                     <select id="country">
                         <option value="it">Italy</option>
                         <option value="mx">Mexico</option>
@@ -63,22 +66,25 @@
                     </select>
                 </div>
                 <br />
-
+                <!-- Button that removes the user input and markers from Google Maps -->
                 <button type="submit" class="btn btn-danger float-right" onClick="clearAll();">Clear</button>
 
 
             </div>
             <br />
+            <!-- Google Maps -->
             <div id="map"></div>
             <br />
             <p>Please see the below table for the list of hotel results that Google Maps has shown.
                 <i class="fas fa-hotel" aria-hidden="true"></i>
             </p>
+            <!-- Table that displays all the hotel markers on Google Maps -->
             <div id="listing">
                 <table id="resultsTable">
                     <tbody id="results"></tbody>
                 </table>
             </div>
+            <!-- InfoWindow that is displayed inside Google Maps -->
             <div style="display: none">
                 <div id="info-content">
                     <table>
@@ -105,6 +111,7 @@
                     </table>
                 </div>
             </div>
+            <!--Image that directs users to the contact html -->
             <div class="row">
                 <div class="col-12">
                     <p>Please click on the below image to send an email for further information.
@@ -117,6 +124,7 @@
             </div>
         </div>
     </div>
+    <!-- Displays icon links to my social media links on GitHub and LinkedIn -->
     <footer class="footer">
         <div class="container-fluid" id="footer-details">
             <div class="row">
@@ -146,9 +154,6 @@
     </footer>
 
 </body>
-<script src="assets/js/booking.js"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKl1sycBA1QwhbdIPgz_GHA8d-omz7-XY&callback=initMap&libraries=places&v=weekly"
-    type="text/javascript"></script>
+
 
 </html>
