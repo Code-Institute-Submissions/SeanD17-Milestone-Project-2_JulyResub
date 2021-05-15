@@ -165,11 +165,11 @@ Used for the creation of wireframes
 ## Validation:
 HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
-[Index Validation Result]()
+[Index Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/2b98e0420f69f327b2097426d4b0051d66af9515/assets/images/index%20validation.png)
 
-[Destination Validation Result]()
+[Destination Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/master/assets/images/destination%20validation.png)
 
-[Contact Validation Result]()
+[Contact Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/cc2d9690a27ac1298f0fa62a75394cab448007ff/assets/images/contact%20validation.png)
 
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
@@ -178,11 +178,11 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
 JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation
 
-[Booking Validation Result]()
+[Booking Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/538eaca96289f9036a58ab682d396111664f5d33/assets/js/booking.js)
 
-[EmailJS Validation Result]()
+[EmailJS Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/538eaca96289f9036a58ab682d396111664f5d33/assets/js/emailJS.js)
 
-[Slideshow Validation Result]()
+[Slideshow Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/538eaca96289f9036a58ab682d396111664f5d33/assets/js/slideshow.js)
 
 ## Project Bugs and Solutions:
 
