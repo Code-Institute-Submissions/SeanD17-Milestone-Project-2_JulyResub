@@ -49,31 +49,30 @@ The project has a couple of pages:
 ## User Stories:
 As a User:
 
-"I want to see what are the most popular countries tourists are going to each year and what are the top cities"
+"I want to see what are the most popular countries tourists are going to each year and what are the top cities."
 
 ![Slideshow](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/country_slideshow.png)
 
-"I want to search for a particular city on one of the most popular countries I saw from the homepage and see what kind of hotels are there"
+"I want to search for a particular city on one of the most popular countries I saw from the homepage and see what kind of hotels are there."
 
 ![City Search](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/city_search.png)
 
-"I want to see all the hotels in the city I searched for to be displayed"
+"I want to see all the hotels in the city I searched for to be displayed."
 
 ![Hotel Names](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/hotel_list.png)
 
-"If I make a mistake when searching for a city, I want to delete all so that I can start my search again"
+"If I make a mistake when searching for a city, I want to delete all so that I can start my search again."
 
 ![Clear Result Before](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/clear_before.png)
 
 ![Clear Result After](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/clear_after.png)
 
-"I want to be able to send an email or fill out a form so that I can get more details on a particular hotel I have found on Google Maps"
+"I want to be able to send an email or fill out a form so that I can get more details on a particular hotel I have found on Google Maps."
 
 ![Form](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/contact_form.png)
 
 ## Strategy:
-
-
+I wanted to create a user friendly website that would display the most popular countries through a slideshow,search for hotels on Google Maps, and to fill out a form that I would receive by email.
 
 ## Scope:
 
@@ -153,7 +152,9 @@ Google Places  returns multiple data items on the locations and these are used t
     
 A second event listener is used to check if a marker has been clicked and will display an information window with the relevant place details.
     
-    
+[EmailJs](https://www.emailjs.com/)
+Used to get details from the contact form and then put it into an email template that is then sent to my personal email.
+
 ## Libraries:
 [FontAwesome](https://fontawesome.com/)
 Used frequently for icons used throughout the website
@@ -163,13 +164,11 @@ Used for the creation of wireframes
 
 
 ## Version Control:
-
 [Github](https://github.com/) - Used to store the code and use of Github Pages to deploy the website. 
 
 [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub.
 
 ## Other:
-
 [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning code.
 
 [W3Schools](https://www.w3schools.com/) - used as a general resource for CSS and coding tips.
@@ -190,7 +189,6 @@ HTML - [W3C](https://validator.w3.org/) - Markup Validation
 [Destination Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/destination_validation.png)
 
 [Contact Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/c5b43a0b4f952eb9741faad55e82767de1fd48b2/assets/images/contact_validation.png)
-
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
@@ -213,7 +211,6 @@ JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation
 
 
 ## Deployment:
-
 Once a GIthub account was created, I opened a new repository by clicking the green button "new". 
 
 To create this project, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
@@ -241,13 +238,11 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
 ## Credits:
 
 ## Content:
-
 All text content in this website was written by me.
 
 <span>Tourist numbers used in slideshow on index page was obtained from <a href="https://en.wikipedia.org/wiki/World_Tourism_rankings">here</a></span>
 
 ## Media:
-
 The photos used in this site were obtained from:
 
 <span>Bed icon obtained from <a href="https://fontawesome.com/icons/hotel">here</a></span>
@@ -277,7 +272,6 @@ The photos used in this site were obtained from:
 <span>Grand Palace in Thailand obtained from <a href="http://www.asiaessencetours.com/destinations/thailand/bangkok/the-grand-palace.htm">here</a></span>
   
 ## Acknowledgments:
-
 I received inspiration for this project from my mentor Nishant Kumar.
 
 I also received inspiration from an Bootstrap mini project that was taught to us as part of our course.
