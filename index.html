@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <!-- Header that has a link to the index page -->
+    <!-- Header with navigation links to other pages as well as a link to the index page -->
     <header class="jumbotron" id="navigation">
         <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -30,7 +30,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html" class="navbar-brand">Bookingzilla Travel Site</a>
+                    <a class="navbar-brand" href="index.html">Bookingzilla Travel Site</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
@@ -53,21 +53,27 @@
     <div class="container-fluid" id="beach">
         <div class="col-md-12 bg-color-three-reasons section-column">
             <div class="row">
-                <div class="col">
-                    <h3>Welcome to Bookingzilla</h3>
+                <div class="col-12">
+                    <h3>Welcome to Bookingzilla
+                        <i class="fas fa-umbrella-beach"></i>
+                    </h3>
+
                     <p>This site was designed to allow you to search for a city for hotels on Google
                         Maps.</p>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12">
                 <!-- Suitcase icon got from FontAwesome -->
                 <p>Please see the below slideshow for countries with the most tourists per year,and the top 3
                     cities with the most tourists.
                     <i class="fas fa-suitcase" aria-hidden="true"></i>
                 </p>
-                <p>Click on the arrows beside each picture to go to the next country in the slideshow.
 
+                <p>
+                    <i class="fas fa-arrow-left"></i>
+                    Click on the arrows beside each picture to go to the next country in the slideshow.
+                    <i class="fas fa-arrow-right"></i>
                 </p>
             </div>
             <br />
@@ -127,7 +133,7 @@
                     <p>Please click on the below image to search for a destination on Google Maps.
                         <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
                     </p>
-                    <a href="destination.html" target="_blank">
+                    <a href="destination.html">
                         <img class="destination" src="assets/images/stock-photo-happy-young-couple-walking-together.jpg"
                             alt="Link to Booking Map page">
                     </a>
@@ -141,7 +147,10 @@
         <div class="container-fluid" id="footer-details">
             <div class="row">
                 <div class="col-sm-12">
-                    <h3>My Social Media Links</h3>
+                    <h3>My Social Media Links
+                        <i class="far fa-envelope" aria-hidden="true"></i>
+
+                    </h3>
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
 
@@ -164,7 +173,9 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/slideshow.js"></script>
+    <script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script async defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script async defer src="assets/js/slideshow.js"></script>
 </body>
 
 
