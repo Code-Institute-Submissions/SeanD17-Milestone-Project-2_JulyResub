@@ -11,13 +11,13 @@ function sendMail(contactForm) {
             "from_comment": contactForm.comment.value,
             "from_people": contactForm.people.value,
         })
-        //outputs message on developer tool saying whether or not values in the form was sent to EmailJS successfully
+        //outputs message on alert saying whether or not values in the form was sent to EmailJS successfully
         .then(
             function (response) {
-                console.log("SUCCESS", response);
+                alert("SUCCESS", response);
             },
             function (error) {
-                console.log("FAILED", error);
+               alert("FAILED", error);
             }
         );
     return false;

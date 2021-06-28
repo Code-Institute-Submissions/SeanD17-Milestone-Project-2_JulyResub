@@ -36,6 +36,15 @@
 
 }
 
+.title{
+    text-align: center;
+    font-weight: bold; 
+}
+.social-title{
+    text-align: center;
+    font-weight: bold; 
+
+}
 /*Heading 3 */
 h3 {
     color: snow;
@@ -151,7 +160,9 @@ footer {
     margin: auto;
     width: 50%;
 }
-
+.slideshow{
+    
+}
 
 /* Slideshow container */
 .slideshow-container {
