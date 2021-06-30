@@ -8,7 +8,7 @@ let infoWindow;
 let markers = [];
 let autocomplete;
 const countryRestrict = {
-    country: "es"
+    country: ["es", "mx", "it", "es", "th", "tr"],
 };
 const MARKER_PATH =
     "https://developers.google.com/maps/documentation/javascript/images/marker_green";
@@ -91,6 +91,9 @@ function onPlaceChanged() {
         map.panTo(place.geometry.location);
         map.setZoom(15);
         search();
+    } else if (!place.geometry || !place.geometry.location) {
+        window.alert("Please select a city that appears up on the search box");
+        return;
     } else {
         document.getElementById("autocomplete").placeholder = "Enter a city";
     }
