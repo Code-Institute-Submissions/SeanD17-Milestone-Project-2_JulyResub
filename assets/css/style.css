@@ -19,6 +19,12 @@
     background-position: bottom;
     padding-bottom: 10%;
 }
+footer i {
+    color:yellow;
+}
+#beach i {
+    color:yellow;
+}
 
 /*Image used to direct user to the contact html*/
 .contact {
@@ -47,11 +53,10 @@
 }
 /*Heading 3 */
 h3 {
-    color: snow;
+    color:  sandybrown;
     font-weight: bold;
     text-align: center;
 }
-
 /* Paragraph*/
 p {
     color: snow;
@@ -160,9 +165,7 @@ footer {
     margin: auto;
     width: 50%;
 }
-.slideshow{
-    
-}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -176,7 +179,7 @@ footer {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 25%;
 
     padding: 16px;
 
