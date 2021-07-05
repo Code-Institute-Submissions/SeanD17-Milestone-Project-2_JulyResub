@@ -92,7 +92,7 @@ function onPlaceChanged() {
         map.setZoom(15);
         search();
     } else if (!place.geometry || !place.geometry.location) {
-        window.alert("Please select a city that appears up on the search box");
+    const error = document.getElementById("error").innerHTML ="This City name for the selected country is not valid, please enter a correct name.";                                                                                 
         return;
     } else {
         document.getElementById("autocomplete").placeholder = "Enter a city";
@@ -195,7 +195,13 @@ function addResult(result, i) {
     tr.appendChild(nameTd);
     results.appendChild(tr);
 }
+function clearError() {
+    const error = document.getElementById("error");
 
+    while (error.childNodes[0]) {
+        error.removeChild(error.childNodes[0]);
+    }
+}
 function clearResults() {
     const results = document.getElementById("results");
 
@@ -278,11 +284,12 @@ function buildIWContent(place) {
 function clearSearch() {
     document.getElementById("autocomplete").value = "";
 }
-//calls on the functions clearResults() and clearSearch() in addition to setting the map view back to the default location of the country Spain
+//calls on the functions clearResults(),clearSearch() and clearError() in addition to setting the map view back to the default location of the country Spain
 function clearAll() {
 
     clearResults();
     clearSearch();
+    clearError();
     map = new google.maps.Map(document.getElementById("map"), {
         zoom: countries["es"].zoom,
         center: countries["es"].center,

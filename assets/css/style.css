@@ -110,6 +110,14 @@ p {
     text-align: center;
 
 }
+/* Text above Google Maps to display a message if the user enters a city that does not exist in the country dropdown */
+#errorText {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background-color: #FFFFFF;
+
+}
 
 /* 5 stars rating of each hotel in the InfoWindow */
 #rating {
