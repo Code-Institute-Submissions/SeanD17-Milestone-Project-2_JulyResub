@@ -14,10 +14,12 @@ function sendMail(contactForm) {
         //outputs message on alert saying whether or not values in the form was sent to EmailJS successfully
         .then(
             function (response) {
-                alert("SUCCESS", response);
+                document.getElementById("form").innerHTML = "Thank you for filling out the form, someone will be in contact with you shortly to answer your query", response;
+                //  alert("SUCCESS", response);
             },
             function (error) {
-               alert("FAILED", error);
+                document.getElementById("form").innerHTML = "An error has occurred with filling out the form,please refresh the page and try again", error;
+                //   alert("FAILED", error);
             }
         );
     return false;
