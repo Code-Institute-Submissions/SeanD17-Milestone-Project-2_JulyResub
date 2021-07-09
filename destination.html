@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -61,27 +61,30 @@
                 </div>
             </div>
             <div class="hotel-search">
-                <p>Please type in a city into the below field and select a country from the dropdown to
+                <p>Please select a country from the dropdown and type in a city into the below field to
                     display hotels,attractions and landmarks on Google Maps.
                     <i class="fas fa-globe-americas" aria-hidden="true"></i>
                 </p>
-                <!-- User enters in a city into this text box -->
-                <div id="locationField">
-                    <input id="autocomplete" placeholder="Enter a city" type="text" />
-                </div>
-                <br />
-
                 <div id="controls">
                     <!-- Dropdown of 5 countries -->
                     <select id="country">
+                        <option value="default" selected>Please select a country</option>
                         <option value="it">Italy</option>
                         <option value="mx">Mexico</option>
-                        <option value="es" selected>Spain</option>
+                        <option value="es">Spain</option>
                         <option value="th">Thailand</option>
                         <option value="tr">Turkey</option>
                     </select>
                 </div>
                 <br />
+                <!-- User enters in a city into this text box -->
+                <div id="locationField">
+                    <input id="autocomplete" placeholder="Enter a city" type="text" />
+                </div>
+
+                <br />
+
+
                 <!-- Button that removes the user input and markers from Google Maps -->
                 <!-- Below button code gotten from here:https://github.com/eldowling/holiday-search-google-maps -->
                 <button type="submit" class="btn btn-danger float-right" onClick="clearAll();">Clear</button>
@@ -89,8 +92,8 @@
 
             </div>
             <br />
-             <!-- Table that displays all the hotel markers on Google Maps -->
-             <div id="listing">
+            <!-- Table that displays all the hotel markers on Google Maps -->
+            <div id="listing">
                 <table id="errorText">
                     <tbody id="error"></tbody>
                 </table>
@@ -179,14 +182,15 @@
             </div>
         </div>
     </footer>
+    <script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script async defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- calls on the below file in order for Google Maps to work properly -->
     <script src="assets/js/booking.js"></script>
     <!-- calls on the below api key to properly display Google Maps-->
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKl1sycBA1QwhbdIPgz_GHA8d-omz7-XY&callback=initMap&libraries=places&v=weekly">
     </script>
-    <script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script async defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </body>
 
 

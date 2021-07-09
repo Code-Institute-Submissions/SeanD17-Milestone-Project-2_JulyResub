@@ -8,16 +8,25 @@ let infoWindow;
 let markers = [];
 let autocomplete;
 const countryRestrict = {
-    country: ["es", "mx", "it", "es", "th", "tr"],
+    country: ["es", "it", "mx", "th", "tr"],
 };
 const MARKER_PATH =
     "https://developers.google.com/maps/documentation/javascript/images/marker_green";
 const hostnameRegexp = new RegExp("^https?://.+?/");
 const countries = {
-    mx: {
+
+    es: {
         center: {
-            lat: 23.73,
-            lng: -102.78
+            lat: 40.5,
+            lng: -3.7
+        },
+        zoom: 5,
+    },
+
+    ie: {
+        center: {
+            lat: 53.08,
+            lng: -8.35
         },
         zoom: 5,
     },
@@ -29,10 +38,10 @@ const countries = {
         },
         zoom: 5,
     },
-    es: {
+    mx: {
         center: {
-            lat: 40.5,
-            lng: -3.7
+            lat: 23.73,
+            lng: -102.78
         },
         zoom: 5,
     },
@@ -56,8 +65,8 @@ const countries = {
 
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
-        zoom: countries["es"].zoom,
-        center: countries["es"].center,
+        zoom: countries["ie"].zoom,
+        center: countries["ie"].center,
         mapTypeControl: false,
         panControl: false,
         zoomControl: false,
@@ -75,12 +84,15 @@ function initMap() {
         }
     );
     places = new google.maps.places.PlacesService(map);
+
     autocomplete.addListener("place_changed", onPlaceChanged);
     // Add a DOM event listener to react when the user selects a country.
     document
         .getElementById("country")
         .addEventListener("change", setAutocompleteCountry);
+        
 }
+
 
 // When the user selects a city, get the place details for the city and
 // zoom the map in on the city.
@@ -92,7 +104,7 @@ function onPlaceChanged() {
         map.setZoom(15);
         search();
     } else if (!place.geometry || !place.geometry.location) {
-    const error = document.getElementById("error").innerHTML ="This City name for the selected country is not valid, please enter a correct name.";                                                                                 
+        const error = document.getElementById("error").innerHTML = "The city name for the selected country is not valid, please enter a correct name.";
         return;
     } else {
         document.getElementById("autocomplete").placeholder = "Enter a city";
@@ -146,22 +158,12 @@ function clearMarkers() {
 function setAutocompleteCountry() {
     const country = document.getElementById("country").value;
 
-    if (country == "all") {
-        autocomplete.setComponentRestrictions({
-            country: []
-        });
-        map.setCenter({
-            lat: 15,
-            lng: 0
-        });
-        map.setZoom(2);
-    } else {
-        autocomplete.setComponentRestrictions({
-            country: country
-        });
-        map.setCenter(countries[country].center);
-        map.setZoom(countries[country].zoom);
-    }
+    autocomplete.setComponentRestrictions({
+        country: country
+    });
+    map.setCenter(countries[country].center);
+    map.setZoom(countries[country].zoom);
+
     clearResults();
     clearMarkers();
 }
@@ -195,6 +197,7 @@ function addResult(result, i) {
     tr.appendChild(nameTd);
     results.appendChild(tr);
 }
+
 function clearError() {
     const error = document.getElementById("error");
 
@@ -202,6 +205,7 @@ function clearError() {
         error.removeChild(error.childNodes[0]);
     }
 }
+
 function clearResults() {
     const results = document.getElementById("results");
 
@@ -283,6 +287,7 @@ function buildIWContent(place) {
 //below function code gotten from here:https://github.com/eldowling/holiday-search-google-maps
 function clearSearch() {
     document.getElementById("autocomplete").value = "";
+    document.getElementById("country").options[0].selected = true;
 }
 //calls on the functions clearResults(),clearSearch() and clearError() in addition to setting the map view back to the default location of the country Spain
 function clearAll() {
@@ -291,8 +296,8 @@ function clearAll() {
     clearSearch();
     clearError();
     map = new google.maps.Map(document.getElementById("map"), {
-        zoom: countries["es"].zoom,
-        center: countries["es"].center,
+        zoom: countries["ie"].zoom,
+        center: countries["ie"].center,
         mapTypeControl: false,
         panControl: false,
         zoomControl: false,
