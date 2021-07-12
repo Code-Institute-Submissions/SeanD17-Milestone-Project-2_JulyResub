@@ -37,9 +37,6 @@ The project has a couple of pages:
 > - [Version Control](#version-control)
 > - [Other](#other)
 > - [Testing](#testing)
-> - [Validation](#validation)
-> - [Project Bugs and Solutions](#projects-bugs-and-solutions)
-> - [Remaining Bugs](#remaining-bugs)
 > - [Deployment](#deployment)
 > - [Credits](#credits)
 > - [Acknowledgments](#acknowledgments)
@@ -95,11 +92,11 @@ I used Font Awesome for the social media icons of GitHub and LinkedIn,as well as
 ## Wireframes:
 I have included wireframes for each page on this website, click on the below page names to see these wireframes:
 
-[Homepage](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Holiday%20Booking%20Homepage.pdf)
+[Homepage](assets/wireframes/Holiday Booking Homepage.pdf)
 
-[Destination](https://github.com/SeanD17/Milestone-Project-2/blob/c8bba7927154286896b968bd99dd8baef9e5343a/assets/wireframes/Holiday%20Booking.pdf)
+[Destination](assets/wireframes/Holiday Booking.pdf)
 
-[Contact](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Contact%20Form.pdf)
+[Contact](assets/wireframes/Contact Form.pdf)
 
 ## Features:
 
@@ -192,19 +189,20 @@ Used for the creation of wireframes.
 [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices. 
 
 ## Testing:
+<p align="center"><strong>Manual Testing of the site</strong></p>
+
 This website was tested through 3 Web Browsers, Microsoft Edge,Google Chrome and Mozilla Firefox.
 
 The slideshow is expected to go to the previous or next image when the user clicks on one of the arrow beside each image,I tested this by clicking the arrows,the image would then change to the next image in the slideshow.
 
-The enter a city search bar is expected to come up with city suggestions when the user types in a letter or word,however if the user types in a city that does not exist in the country they have picked, e.g. Dublin in Spain, no city name result will show up and the Map will not go to the city location and populate it with markers, this is expected.
-
-If a city on Google Maps does not have any hotels for the markers to be placed onto the map, the map will still go to the city location but will not populate the map with markers or display the results into the table below the map,this is expected but i would have liked to display a message to the user saying that this city does not have any hotels listed on Google Maps.
+The enter a city search bar is expected to come up with city suggestions when the user types in a letter or word,however if the user types in a city that does not exist in the country they have picked, e.g. Dublin in Spain, no city name result will show up and after pressing the Enter key a message will appear below the Clear button to let the user know that the city they entered does not exist in the country they are looking at.
 
 All three displayed the exact same website layout without any noticeable changes.
 
-The clear button when clicked on deletes all the hotel markers on the map as well as the city that the user searched for, in addition, the map goes back to the country of Spain.
+The clear button when clicked on deletes all the hotel markers on the map,and selects the first option in the country dropdown which is "Please enter a city" as well as the city that the user searched for.
+In addition, the map goes back to the country of Ireland.
 
-All links on the site when clicked on will open to a new tab.
+Links on the site when clicked on will open to the same tab,except for the Social Media links in the footer, these are opened on a new tab.
 
 The website was tested on an Android smartphone and a Samsung Tablet.
 
@@ -212,42 +210,73 @@ The website has being designed to accommodate the screen sizes of smartphones an
 
 On the Contact form page of the website,all the fields are required and must be filled before clicking the submit button. 
 
-Once the Submit button is clicked, an email is sent to me with the form details the user has entered.
+Once the Submit button is clicked, a message is displayed below the Submit button letting the user know that the form details were successfully sent to me by email.
 
-![Email](https://github.com/SeanD17/Milestone-Project-2/blob/master/assets/images/holiday_booking.png)
+![Contact Form Feedback](assets/images/contact_form.png)
 
-The user is not told if the email was sent or not,as i couldn't find a way of displaying a message saying the form has being sent.
+![Email](assets/images/holiday_booking.png)
 
-## Validation:
+<p align="center"><strong>User Stories Testing</strong></p>
+As a User:
+
+"I want to see what are the most popular countries tourists are going to each year and what are the top cities."
+
+
+
+"I want to search for a particular city on one of the most popular countries I saw from the homepage and see what kind of hotels are there."
+
+
+
+"I want to see all the hotels in the city I searched for to be displayed."
+
+
+
+"If I make a mistake when searching for a city, I want to delete all so that I can start my search again."
+
+
+
+"I want to be able to send an email or fill out a form so that I can get more details on a particular hotel I have found on Google Maps."
+
+
+<p align="center"><strong>Site Responsiveness</strong></p>
+
+[Am I Responsive?](http://ami.responsivedesign.is/)
+
+<p align="center"><strong> HTML Validation</strong></p>
+
 HTML - [W3C](https://validator.w3.org/) - Markup Validation.
 
-[Index Validation Result](assets/images/index_validation.png)
+![Index Validation Result](assets/images/index_validation.png)
 
-[Destination Validation Result](assets/images/destination_validation.png)
+![Destination Validation Result](assets/images/destination_validation.png)
 
-[Contact Validation Result](assets/images/contact_validation.pnggi)
+![Contact Validation Result](assets/images/contact_validation.png)
+
+<p align="center"><strong> CSS Validation</strong></p>
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation.
 
 [Validation Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FSeanD17%2FMilestone-Project-2%2Fblob%2Fmaster%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+<p align="center"><strong>JavaScript Validation</strong></p>
+
 JavaScript - [JSHINT](https://jshint.com/) - JavaScript Validation.
 
-[Booking Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/2898a11482c346a6142d14344d2812add75ac626/assets/images/booking.png)
+![Booking Validation Result](assets/images/booking.png)
 
-[EmailJS Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/2898a11482c346a6142d14344d2812add75ac626/assets/images/emailJS.png)
+![EmailJS Validation Result](assets/images/emailJS.png)
 
-[Slideshow Validation Result](https://github.com/SeanD17/Milestone-Project-2/blob/2898a11482c346a6142d14344d2812add75ac626/assets/images/slideshow.png)
+![Slideshow Validation Result](assets/images/slideshow.png)
 
-## Project Bugs and Solutions:
+<p align="center"><strong>Project Bugs and Solutions</strong></p>
+
 When viewed on the AmIResponsive website, I noticed that one of the images was stretched out so far that a horizontal bar was present in the mobile view.
 
 This bug was caused as a result of me setting the image's width to a fixed number of pixels, which caused it to stretch out on smaller devices like the mobile.
 
 This bug was fixed by changing the width pixels to a percentage so that it would automatically resize the image on the mobile view.
 
-## Remaining bugs: 
-If a user searches for hotels in a city on Google Maps that doesn't have any, markers will not be placed onto the map and no results are shown on the table below the map.
+<p align="center"><strong>Remaining bugs</strong></p>
 
 When the user clicks on the arrows of the slideshow to go to the next image, the page size changes to accommodate the image size even though I have set a rule to have the width have an automatic percentage of 50%.
 
