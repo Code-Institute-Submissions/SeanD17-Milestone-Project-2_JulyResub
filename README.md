@@ -92,11 +92,11 @@ I used Font Awesome for the social media icons of GitHub and LinkedIn,as well as
 ## Wireframes:
 I have included wireframes for each page on this website, click on the below page names to see these wireframes:
 
-![Homepage](assets/wireframes/Holiday Booking Homepage.pdf)
+[Homepage](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Holiday%20Booking%20Homepage.pdf)
 
-![Destination](assets/wireframes/Holiday Booking.pdf)
+[Destination](https://github.com/SeanD17/Milestone-Project-2/blob/c8bba7927154286896b968bd99dd8baef9e5343a/assets/wireframes/Holiday%20Booking.pdf)
 
-![Contact](assets/wireframes/Contact Form.pdf)
+[Contact](https://github.com/SeanD17/Milestone-Project-2/blob/b4ecb737670ae55172b7f67d1a049dfa0cecfe22/assets/wireframes/Contact%20Form.pdf)
 
 ## Features:
 
