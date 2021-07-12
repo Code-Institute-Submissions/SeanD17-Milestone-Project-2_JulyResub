@@ -1,7 +1,3 @@
-//needed to call the EmailJS service
-(function () {
-    emailjs.init("user_Z3NhniKVmxQR4ouXUECcZ");
-})();
 //function that gets value from the contact form and sends it to the EmailJS website where it is then placed into an email template that is then sent out to me by email
 function sendMail(contactForm) {
     emailjs.send("service_m0pgoxr", "template_8t12twf", {
