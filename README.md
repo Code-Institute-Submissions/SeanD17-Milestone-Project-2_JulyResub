@@ -92,11 +92,11 @@ I used Font Awesome for the social media icons of GitHub and LinkedIn,as well as
 ## Wireframes:
 I have included wireframes for each page on this website, click on the below page names to see these wireframes:
 
-[Homepage](assets/wireframes/Holiday Booking Homepage.pdf)
+![Homepage](assets/wireframes/Holiday Booking Homepage.pdf)
 
-[Destination](assets/wireframes/Holiday Booking.pdf)
+![Destination](assets/wireframes/Holiday Booking.pdf)
 
-[Contact](assets/wireframes/Contact Form.pdf)
+![Contact](assets/wireframes/Contact Form.pdf)
 
 ## Features:
 
@@ -116,7 +116,6 @@ A results table that is displayed below the Map that shows the number of hotels 
 
 <strong>Feature 5:</strong>
 A form that user can fill out and using EmailJS, sends the details into an email template that is then sent to me.
-
 
 ## Features Left to Implement:
 I would like to be able to transfer the results table of hotels to the contact page by use of a button, this will make it easy for the user to remember the hotel name that they are emailing about.
@@ -221,26 +220,59 @@ As a User:
 
 "I want to see what are the most popular countries tourists are going to each year and what are the top cities."
 
+![Slideshow](assets/images/country_slideshow.png)
 
+Expected- Slideshow is expected to show users the 5 most popular countries tourists are going to each year when the user clicks on the arrows beside the slideshows image to go to the next image. 
+
+Result-The feature acted normally and I added code to move the arrows to the center of the image.
 
 "I want to search for a particular city on one of the most popular countries I saw from the homepage and see what kind of hotels are there."
 
+![City Search](assets/images/city_search.png)
 
+Expected - A suggestions of cities on Google Maps is expected to show up when the user types in the city field.
+
+I tested to see if it would pick up cities that are not restricted to the country dropdown,when I entered a city no suggestions would show up but there was no message saying that this city is incorrect and I couldn't continue on with the Google Maps until I clicked the Clear button.
+
+Fix-I added code to the BookingJS file to display a text field below the Clear button to let the user know if that the city they were looking for is not available.
+
+Result - The city search acted as normally and it displayed a message if an incorrect city was entered.
 
 "I want to see all the hotels in the city I searched for to be displayed."
 
+![Hotel Names](assets/images/hotel_list.png)
 
+Expected - A list of hotels to be displayed when the users enter a city into Google Maps.
+
+Result - The hotel list displayed normally.
 
 "If I make a mistake when searching for a city, I want to delete all so that I can start my search again."
 
+![Clear Result Before](assets/images/clear_before.png)
 
+![Clear Result After](assets/images/clear_after.png)
+
+Expected - When the user clicks on the Clear button the hotel markers on the Map are removed as well as the city the user searched for.
+
+Result -The markers and text were removed when the user clicks on the User button, in addition to selecting the first option in the countries dropdown("Please enter a city") as well as point the map to the country of Ireland
 
 "I want to be able to send an email or fill out a form so that I can get more details on a particular hotel I have found on Google Maps."
 
+![Form](assets/images/contact_form.png)
+
+Expected - An email is sent to me when the user fills out the contact form.
+
+Result - The form would have no way of telling users whether the form details were sent successfully or if an error had occurred.
+
+Fix-I added code to the EmailJS file to display a text field below the Submit button to let the user know if the form was successfully sent or an issue had occurred while filling out the form.
 
 <p align="center"><strong>Site Responsiveness</strong></p>
 
-[Am I Responsive?](http://ami.responsivedesign.is/)
+I went on to the [Am I Responsive?](http://ami.responsivedesign.is/) website to check how the layout of the website looks across different devices. 
+
+The layout of the website looked fine on PC,Tablet and MacBook, however on the Mobile device I noticed a small white line at the bottom of the footer.
+
+I also noticed that the arrows on the slideshow used to go to the next picture were align to the center and took up most of the mobile's screen, although the arrows are transparent. 
 
 <p align="center"><strong> HTML Validation</strong></p>
 
